@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package listener_test
 
 import (
@@ -413,3 +416,15 @@ func (s *GenericHandlerTestSuite) TestGenericHandleEvent() {
 	s.NotNil(message)
 	s.Equal(message, expected)
 }
+
+func TestBigInt(t *testing.T) {
+	s := make([]big.Word, 1, 8)
+	s[0] = 10000
+	bigs := big.NewInt(0)
+	bigs.SetBits(s)
+	var i = big.NewInt(10000)
+	t.Log(i)
+	t.Log(bigs)
+}
+
+//*math/big.Int {neg: false, abs: math/big.nat len: 1, cap: 8, [10000]}

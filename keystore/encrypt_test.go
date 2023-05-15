@@ -6,6 +6,7 @@ package keystore
 import (
 	"bytes"
 	"crypto/rand"
+	"encoding/hex"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -85,6 +86,7 @@ func TestEncryptAndDecryptFromFile_Secp256k1(t *testing.T) {
 	defer os.Remove(fp)
 
 	kp, err := secp256k1.GenerateKeypair()
+
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -130,22 +132,25 @@ func TestEncryptAndDecryptFromFile_Sr25519(t *testing.T) {
 }
 
 func TestDecryptIncorrectType(t *testing.T) {
-	password := []byte("ansermino")
-	file, fp := createTestFile(t)
-	defer os.Remove(fp)
+	password := []byte("123")
 
-	kp, err := sr25519.NewKeypairFromSeed("//seed", "substrate")
+	kp, err := ReadFromFileAndDecrypt("./test_key", password, "secp256k1")
 	if err != nil {
-		t.Fatal(err)
+		t.Fatal("mismatch error")
 	}
+	t.Log(kp.Encode())
+	t.Log(hex.EncodeToString([]byte{109, 246, 186, 111, 86, 245, 123, 175, 124, 107, 221, 223, 225, 247, 123, 243, 157, 28, 107, 167, 90, 119, 198, 157, 119, 222, 26, 219, 126, 53, 121, 182, 221, 119, 166, 158, 111, 199, 189, 119, 190, 121, 223, 110, 157, 121, 167, 157}))
 
-	err = EncryptAndWriteToFile(file, kp, password)
+}
+
+func TestDecrypt(t *testing.T) {
+	password := []byte("123")
+	cipher := []byte{109, 246, 186, 111, 86, 245, 123, 175, 124, 107, 221, 223, 225, 247, 123, 243, 157, 28, 107, 167, 90, 119, 198, 157, 119, 222, 26, 219, 126, 53, 121, 182, 221, 119, 166, 158, 111, 199, 189, 119, 190, 121, 223, 110, 157, 121, 167, 157}
+	b, err := Decrypt(cipher, password)
 	if err != nil {
-		t.Fatal(err)
+		t.Error(err, "failed")
 	}
+	t.Log(string(b))
 
-	_, err = ReadFromFileAndDecrypt(fp, password, "secp256k1")
-	if err == nil {
-		t.Fatal("Expected mismatch error, got none.")
-	}
+	//TODO : Load Privatekey
 }

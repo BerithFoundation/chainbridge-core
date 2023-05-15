@@ -6,9 +6,10 @@ package relayer
 import (
 	"context"
 	"fmt"
+	"os"
 
 	"github.com/ChainSafe/chainbridge-core/relayer/message"
-	"github.com/rs/zerolog/log"
+	log "github.com/rs/zerolog"
 )
 
 type Metrics interface {
@@ -23,8 +24,8 @@ type RelayedChain interface {
 	DomainID() uint8
 }
 
-func NewRelayer(chains []RelayedChain, metrics Metrics, messageProcessors ...message.MessageProcessor) *Relayer {
-	return &Relayer{relayedChains: chains, messageProcessors: messageProcessors, metrics: metrics}
+func NewRelayer(chains []RelayedChain, metrics Metrics, logLV log.Level, messageProcessors ...message.MessageProcessor) *Relayer {
+	return &Relayer{relayedChains: chains, messageProcessors: messageProcessors, metrics: metrics, logger: log.New(os.Stdout).Level(logLV)}
 }
 
 type Relayer struct {
@@ -32,16 +33,17 @@ type Relayer struct {
 	relayedChains     []RelayedChain
 	registry          map[uint8]RelayedChain
 	messageProcessors []message.MessageProcessor
+	logger            log.Logger
 }
 
 // Start function starts the relayer. Relayer routine is starting all the chains
 // and passing them with a channel that accepts unified cross chain message format
 func (r *Relayer) Start(ctx context.Context, sysErr chan error) {
-	log.Debug().Msgf("Starting relayer")
+	r.logger.Debug().Msgf("Starting relayer")
 
 	messagesChannel := make(chan []*message.Message)
 	for _, c := range r.relayedChains {
-		log.Debug().Msgf("Starting chain %v", c.DomainID())
+		r.logger.Debug().Msgf("Starting chain %v", c.DomainID())
 		r.addRelayedChain(c)
 		go c.PollEvents(ctx, sysErr, messagesChannel)
 	}
@@ -61,7 +63,7 @@ func (r *Relayer) Start(ctx context.Context, sysErr chan error) {
 func (r *Relayer) route(msgs []*message.Message) {
 	destChain, ok := r.registry[msgs[0].Destination]
 	if !ok {
-		log.Error().Msgf("no resolver for destID %v to send message registered", msgs[0].Destination)
+		r.logger.Error().Msgf("no resolver for destID %v to send message registered", msgs[0].Destination)
 		return
 	}
 
@@ -70,17 +72,17 @@ func (r *Relayer) route(msgs []*message.Message) {
 
 		for _, mp := range r.messageProcessors {
 			if err := mp(m); err != nil {
-				log.Error().Err(fmt.Errorf("error %w processing mesage %v", err, m))
+				r.logger.Error().Err(fmt.Errorf("error %w processing mesage %v", err, m))
 				return
 			}
 		}
 	}
 
-	log.Debug().Msgf("Sending messages %+v to destination %v", msgs, destChain.DomainID())
+	r.logger.Debug().Msgf("Sending messages %+v to destination %v", msgs, destChain.DomainID())
 
 	err := destChain.Write(msgs)
 	if err != nil {
-		log.Err(err).Msgf("Failed sending messages %+v to destination %v", msgs, destChain.DomainID())
+		r.logger.Err(err).Msgf("Failed sending messages %+v to destination %v", msgs, destChain.DomainID())
 		for _, m := range msgs {
 			r.metrics.TrackExecutionError(m)
 		}

@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package relayer
 
 import (
@@ -65,6 +68,7 @@ func (s *RouteTestSuite) TestLogsErrorIfMessageProcessorReturnsError() {
 	relayer := NewRelayer(
 		[]RelayedChain{},
 		s.mockMetrics,
+		0,
 		func(m *message.Message) error { return fmt.Errorf("error") },
 	)
 	relayer.addRelayedChain(s.mockRelayedChain)
@@ -82,6 +86,7 @@ func (s *RouteTestSuite) TestWriteFail() {
 	relayer := NewRelayer(
 		[]RelayedChain{},
 		s.mockMetrics,
+		0,
 		func(m *message.Message) error { return nil },
 	)
 	relayer.addRelayedChain(s.mockRelayedChain)
@@ -99,6 +104,7 @@ func (s *RouteTestSuite) TestWritesToDestChainIfMessageValid() {
 	relayer := NewRelayer(
 		[]RelayedChain{},
 		s.mockMetrics,
+		0,
 		func(m *message.Message) error { return nil },
 	)
 	relayer.addRelayedChain(s.mockRelayedChain)

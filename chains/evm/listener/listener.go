@@ -45,8 +45,10 @@ func NewEVMListener(
 	domainID uint8,
 	blockRetryInterval time.Duration,
 	blockConfirmations *big.Int,
-	blockInterval *big.Int) *EVMListener {
-	logger := log.With().Uint8("domainID", domainID).Logger()
+	blockInterval *big.Int,
+	logLV zerolog.Level,
+) *EVMListener {
+	logger := log.With().Uint8("domainID", domainID).Logger().Level(logLV)
 	return &EVMListener{
 		log:                logger,
 		client:             client,
@@ -74,7 +76,9 @@ func (l *EVMListener) ListenToEvents(ctx context.Context, startBlock *big.Int, m
 				time.Sleep(l.blockRetryInterval)
 				continue
 			}
-			if startBlock == nil {
+			// [Berith]
+			// Set the startblock to latestblock when the 'startblock' configuration is set to 0
+			if startBlock == nil || startBlock.Cmp(big.NewInt(0)) == 0 {
 				startBlock = big.NewInt(head.Int64())
 			}
 			endBlock.Add(startBlock, l.blockInterval)

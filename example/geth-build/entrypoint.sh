@@ -53,6 +53,7 @@ exec geth \
   --http.port 8545 \
   --http.corsdomain="*" \
   --http.vhosts="*" \
+  --http.api="web3,eth,debug,personal,net" \
   --nat=extip:${IP} \
   --networkid ${NETWORKID} \
   --allow-insecure-unlock ${MINE} ${BOOTNODE} ${NODEKEY}

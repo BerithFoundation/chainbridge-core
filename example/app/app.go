@@ -39,7 +39,9 @@ func Run() error {
 	if err != nil {
 		panic(err)
 	}
-
+	// [Berith]
+	// Both relayer and evmlistner set to the same log level as received from relayerconfig
+	logLV := configuration.RelayerConfig.LogLevel
 	db, err := lvldb.NewLvlDB(viper.GetString(flags.BlockstoreFlagName))
 	if err != nil {
 		panic(err)
@@ -79,7 +81,7 @@ func Run() error {
 				eventListener := events.NewListener(client)
 				eventHandlers := make([]listener.EventHandler, 0)
 				eventHandlers = append(eventHandlers, listener.NewDepositEventHandler(eventListener, depositHandler, common.HexToAddress(config.Bridge), *config.GeneralChainConfig.Id))
-				evmListener := listener.NewEVMListener(client, eventHandlers, blockstore, *config.GeneralChainConfig.Id, config.BlockRetryInterval, config.BlockConfirmations, config.BlockInterval)
+				evmListener := listener.NewEVMListener(client, eventHandlers, blockstore, *config.GeneralChainConfig.Id, config.BlockRetryInterval, config.BlockConfirmations, config.BlockInterval, logLV)
 
 				mh := executor.NewEVMMessageHandler(bridgeContract)
 				mh.RegisterMessageHandler(config.Erc20Handler, executor.ERC20MessageHandler)
@@ -110,6 +112,7 @@ func Run() error {
 	r := relayer.NewRelayer(
 		chains,
 		metrics,
+		logLV,
 	)
 
 	errChn := make(chan error)

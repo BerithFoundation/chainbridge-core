@@ -1,0 +1,402 @@
+02-05|11:00:00.730 Called add-minter with args: --contract="0xb83065680e6AEc805774d8545516dF4e936F0dC0" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xff93B45308FD417dF303D6515aB04D9e89a750Ca" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+failed to execute root cmd [31merror=[0m[31m"websocket: bad handshake (HTTP status 200 OK)"[0m
+02-05|11:00:00.009 Called add-minter with args: --contract="0xb83065680e6AEc805774d8545516dF4e936F0dC0" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xff93B45308FD417dF303D6515aB04D9e89a750Ca" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8546" =>
+Adding new minter 0xff93B45308FD417dF303D6515aB04D9e89a750Ca
+error on calling MINTER_ROLE [31merror=[0m[31m"execution reverted"[0m [36mcontract=[0m0xb83065680e6AEc805774d8545516dF4e936F0dC0
+failed to execute root cmd [31merror=[0m[31m"execution reverted"[0m
+02-05|15:00:00.963 Called balance with args: --address="0x4CEEf6139f00F9F4535Ad19640Ff7A0137708485" --contract="0xc393f33A6FAFDb6fdb51E422F02598051740E9eD" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8546" =>
+Getting balance for 0x4CEEf6139f00F9F4535Ad19640Ff7A0137708485
+method balanceOf called [36mcontract=[0m0xc393f33A6FAFDb6fdb51E422F02598051740E9eD
+balance of 0x4CEEf6139f00F9F4535Ad19640Ff7A0137708485 is 100
+02-05|15:00:00.246 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="" --deposit-nonce="0" --domain="0" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"data-hash\", \"deposit-nonce\", \"domain\" not set"[0m
+02-05|15:00:00.824 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="" --deposit-nonce="0" --domain="1" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"data-hash\", \"deposit-nonce\" not set"[0m
+02-05|15:00:00.979 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="" --deposit-nonce="0" --domain="1" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"data-hash\", \"deposit-nonce\" not set"[0m
+02-05|15:00:00.539 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="0x" --deposit-nonce="1" --domain="1" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+
+Querying proposal
+Chain ID: 1
+Deposit nonce: 1
+Data hash: 0x
+Bridge address: 0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66
+02-05|16:00:00.021 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="0x" --deposit-nonce="1" --domain="1" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+
+Querying proposal
+Chain ID: 1
+Deposit nonce: 1
+Data hash: 0x
+Bridge address: 0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66
+02-05|16:00:00.059 Called query-proposal with args: --bridge="0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66" --data-hash="0x10000" --deposit-nonce="1" --domain="1" --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+
+Querying proposal
+Chain ID: 1
+Deposit nonce: 1
+Data hash: 0x10000
+Bridge address: 0xd606A00c1A39dA53EA7Bb3Ab570BBE40b156EB66
+04-05|09:00:00.842 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://bers.berith.co" =>
+url: http://bers.berith.co gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|09:00:00.335 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+failed to execute root cmd [31merror=[0m[31m"eth_sendRawTransaction is not supported untill bip5"[0m
+04-05|10:00:00.824 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+failed to execute root cmd [31merror=[0m[31m"eth_sendRawTransaction is not supported untill bip5"[0m
+04-05|10:00:00.571 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+failed to execute root cmd [31merror=[0m[31m"insufficient funds for gas * price + value"[0m
+04-05|10:00:00.788 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|10:00:00.319 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|10:00:00.555 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="52069ec4b9c89b5c16eff569c6f9f5d3825e07842bc40a3a833c1fab157e0646" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x58b395A4bA195e03445a065cb6b4f195572DFBE7
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|10:00:00.257 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="52069ec4b9c89b5c16eff569c6f9f5d3825e07842bc40a3a833c1fab157e0646" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x58b395A4bA195e03445a065cb6b4f195572DFBE7
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+failed to execute root cmd [31merror=[0m[31m"Post \"http://localhost:8544\": EOF"[0m
+04-05|10:00:00.718 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="20000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="52069ec4b9c89b5c16eff569c6f9f5d3825e07842bc40a3a833c1fab157e0646" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 20000000000
+SENDER Address 0x58b395A4bA195e03445a065cb6b4f195572DFBE7
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|10:00:00.244 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="false" --erc20-name="berith-relayer" --erc20-symbol="BRR" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="0" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="52069ec4b9c89b5c16eff569c6f9f5d3825e07842bc40a3a833c1fab157e0646" --relayer-threshold="1" --relayers="[]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: <nil>
+SENDER Address 0x58b395A4bA195e03445a065cb6b4f195572DFBE7
+Relayers for deploy []
+all bool: false
+deploying ERC20..
+Suggested GP 1000000000
+04-05|13:00:00.938 Called mint with args: --amount="100" --contract="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --gas-limit="6721975" --gas-price="20000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --recipient="0x0f50810fC61ab51c7e845031559Ba969CC78F295" --url="https://api.baobab.klaytn.net:8651" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"decimals\" not set"[0m
+04-05|14:00:00.077 Called mint with args: --amount="100" --contract="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="18" --gas-limit="6721975" --gas-price="20000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --recipient="0x0f50810fC61ab51c7e845031559Ba969CC78F295" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 100000000000000000000 tokens to 0x0f50810fC61ab51c7e845031559Ba969CC78F295
+error on executing mint [31merror=[0m[31m"insufficient funds of the sender for value "[0m [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e
+failed to execute root cmd [31merror=[0m[31m"insufficient funds of the sender for value "[0m
+04-05|14:00:00.510 Called mint with args: --amount="1" --contract="0x26a9eA28da75836793DC59386e83B868baf73FD9" --decimals="18" --gas-limit="6721975" --gas-price="20000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --recipient="0x0f50810fC61ab51c7e845031559Ba969CC78F295" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 1000000000000000000 tokens to 0x0f50810fC61ab51c7e845031559Ba969CC78F295
+error on executing mint [31merror=[0m[31m"insufficient funds of the sender for value "[0m [36mcontract=[0m0x26a9eA28da75836793DC59386e83B868baf73FD9
+failed to execute root cmd [31merror=[0m[31m"insufficient funds of the sender for value "[0m
+04-05|14:00:00.098 Called mint with args: --amount="1" --contract="0x26a9eA28da75836793DC59386e83B868baf73FD9" --decimals="5" --gas-limit="6721975" --gas-price="20000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --recipient="0x0f50810fC61ab51c7e845031559Ba969CC78F295" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 100000 tokens to 0x0f50810fC61ab51c7e845031559Ba969CC78F295
+error on executing mint [31merror=[0m[31m"insufficient funds of the sender for value "[0m [36mcontract=[0m0x26a9eA28da75836793DC59386e83B868baf73FD9
+failed to execute root cmd [31merror=[0m[31m"insufficient funds of the sender for value "[0m
+04-05|14:00:00.934 Called mint with args: --amount="5" --contract="0x26a9eA28da75836793DC59386e83B868baf73FD9" --decimals="1" --gas-limit="6721975" --gas-price="20000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --recipient="0x0f50810fC61ab51c7e845031559Ba969CC78F295" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 50 tokens to 0x0f50810fC61ab51c7e845031559Ba969CC78F295
+error on executing mint [31merror=[0m[31m"insufficient funds of the sender for value "[0m [36mcontract=[0m0x26a9eA28da75836793DC59386e83B868baf73FD9
+failed to execute root cmd [31merror=[0m[31m"insufficient funds of the sender for value "[0m
+08-05|13:00:00.249 Called generate with args: --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="--help" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+Address: 0x23eDa8180942eD5A7948645b6b0fC902CD2c3A2e,  Private key: 467f227abd2640c6a42ae5a20fa5832f442b8b8c20c8286427d070b260637a98
+08-05|13:00:00.576 Called generate with args: --gas-limit="6721975" --gas-price="0" --help="false" --json-wallet="" --json-wallet-password="--import" --network="0" --prepare="false" --private-key="" --url="ws://localhost:8545" =>
+Address: 0xF8F2435a9959A348b976f47392c3468D10c3421A,  Private key: db4fba1192e1457c72df39580e67e3cbe32142bbd2b13609f19914996b05496a
+15-05|13:00:00.431 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="1" --erc20="false" --erc20-handler="false" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="0" --gas-limit="6721975" --gas-price="0" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --relayer-threshold="1" --relayers="[]" --url="ws://localhost:8545" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"domain\", \"fee\", \"relayer-threshold\" not set"[0m
+15-05|13:00:00.230 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1" --gas-limit="6721975" --gas-price="0" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="" --relayer-threshold="1" --relayers="[]" --url="ws://localhost:8545" =>
+url: ws://localhost:8545 gas limit: 6721975 gas price: <nil>
+SENDER Address 0xff93B45308FD417dF303D6515aB04D9e89a750Ca
+error initializing new EVM client [31merror=[0m[31m"ethereum client error: dial tcp 127.0.0.1:8545: connect: connection refused"[0m
+failed to execute root cmd [31merror=[0m[31m"dial tcp 127.0.0.1:8545: connect: connection refused"[0m
+15-05|13:00:00.344 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1" --gas-limit="6721975" --gas-price="0" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: <nil>
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x2E219076F3Dc6e6675e7D5e17E76012c0A0DdeFa [36mtxHash=[0m0x711f9c78fb38ca003da354da19b8493b3df8f291c7d71831f70f653bab35732f
+bridge address; 0x2E219076F3Dc6e6675e7D5e17E76012c0A0DdeFa
+15-05|13:00:00.616 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="10000" --gas-limit="6721975" --gas-price="0" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: <nil>
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy []
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x36EFaCb6eBd541D21b8282AE86aEeb5Ee522056E [36mtxHash=[0m0xbb17d3faa232f9ec56370e1596c313d3fd25c9437d93ac0a096454a7cb49ffae
+bridge address; 0x36EFaCb6eBd541D21b8282AE86aEeb5Ee522056E
+15-05|13:00:00.191 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"erc20-name\", \"erc20-symbol\" not set"[0m
+15-05|13:00:00.622 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="" --erc20-symbol="" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"erc20-name\", \"erc20-symbol\" not set"[0m
+15-05|13:00:00.570 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERS" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0x8a2420eae37bf06d454e0d14c96d00e2ed93697b2911b3348dd6d6e2f9d092c4
+bridge address; 0x6C682171E2e2AbECB956e6C30C66cbC1254B2406
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B [36mtxHash=[0m0xcaabec7d27690edf6b5f712f419d66a8e56ec1d4bcb35efd616de01f7b4a06a1
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0x22c2c94aa3da389f8d57c3ba84741178b7ee724714919f8eff46d3ef298520e5
+15-05|13:00:00.086 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="true" --erc20-name="BERS" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="10000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --relayer-threshold="1" --relayers="[0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]" --url="https://rpc-mumbai.maticvigil.com/" =>
+url: https://rpc-mumbai.maticvigil.com/ gas limit: 6721975 gas price: 10000000000
+SENDER Address 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+Relayers for deploy [0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x01fBF99e27B4bFaD684B05162C7cAad4Ae7f89a6 [36mtxHash=[0m0xe55f41a3724333582cb47bc643bfd1c332a6dd6adbbf58a38a61b404fd434f61
+bridge address; 0x01fBF99e27B4bFaD684B05162C7cAad4Ae7f89a6
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0x04e57E620d2C74Cb67f7801d81353e7Fc31692f1 [36mtxHash=[0m0x1388131196a52e9ffe1c02517463849912c33a7e705065f655671779761ea14b
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0x01ee3B49e634A7b73Bd195487954d260C599CDC7 [36mtxHash=[0m0x8ca671170bf59dc4f710dd3758681ae44d6a848fd01227a054f52544fdd9d08f
+15-05|16:00:00.827 Called register-resource with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Bridge address: 0x6C682171E2e2AbECB956e6C30C66cbC1254B2406
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0xb1cafd3e928e6bd054e692ebdda283920f020227f39d6235ae89acc5fb66598d
+Resource registered with transaction: 0xb1cafd3e928e6bd054e692ebdda283920f020227f39d6235ae89acc5fb66598d
+15-05|16:00:00.115 Called register-resource with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Bridge address: 0x6C682171E2e2AbECB956e6C30C66cbC1254B2406
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0xa725900013a2b0e6a7252175a499e554876625876f0989941e658d28a400e9a8
+Resource registered with transaction: 0xa725900013a2b0e6a7252175a499e554876625876f0989941e658d28a400e9a8
+15-05|16:00:00.287 Called set-burn with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 as burnable on handler 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Setting burnable input for 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method adminSetBurnable executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0x8a0aa2ba9a8249d36994ba9a8109f085c3811775f9e70019aa7399125d4d79e5
+Burnable set
+15-05|16:00:00.434 Called add-minter with args: --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+method MINTER_ROLE called [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method grantRole executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0x5d9431b20cfe16bf83ef5043311d06c25792a5a95c8e71b05c941b366961c526
+0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B account granted minter roles
+15-05|16:00:00.583 Called approve with args: --amount="10000000000000000000" --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --url="https://api.baobab.klaytn.net:8651" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"decimals\" not set"[0m
+15-05|16:00:00.601 Called register-resource with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Bridge address: 0x6C682171E2e2AbECB956e6C30C66cbC1254B2406
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0xce8b7cfe90b7bfd6d5af87993dbc01e1fd5b25cbd9f62ceefb47e4ebd38a034c
+Resource registered with transaction: 0xce8b7cfe90b7bfd6d5af87993dbc01e1fd5b25cbd9f62ceefb47e4ebd38a034c
+15-05|16:00:00.979 Called set-burn with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 as burnable on handler 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Setting burnable input for 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method adminSetBurnable executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0x721ec395be1363d9f7b877c1780a8df40cb462240b0e81d31f1cc520a23f583b
+Burnable set
+15-05|16:00:00.421 Called add-minter with args: --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+method MINTER_ROLE called [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method grantRole executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0xb8bc76e903b8f8cd4adcd5b9488c5b8478300f8808a1687a9bc040803e0404a3
+0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B account granted minter roles
+15-05|16:00:00.917 Called approve with args: --amount="10000000000000000000" --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --decimals="18" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --url="https://api.baobab.klaytn.net:8651" =>
+
+Approving ERC20
+ERC20 address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Recipient address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Amount: 10000000000000000000
+Decimals: 18
+Approving 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B tokens for 9999999999999999538762658202121142272
+method approve executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0xa1a535e3689a401e0bced3d3b40c1c1136f068ff0a756214d74a317c2c8cfe2e
+0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B account granted allowance on 10000000000000000000 tokens of 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+15-05|16:00:00.440 Called register-resource with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Bridge address: 0x6C682171E2e2AbECB956e6C30C66cbC1254B2406
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0x11e03b002932e03ee00fe93de9820656fef1be521af639e6f67b0e1b4ecab89f
+Resource registered with transaction: 0x11e03b002932e03ee00fe93de9820656fef1be521af639e6f67b0e1b4ecab89f
+15-05|16:00:00.614 Called set-burn with args: --bridge="0x6C682171E2e2AbECB956e6C30C66cbC1254B2406" --gas-limit="6721975" --gas-price="30000000000" --handler="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 as burnable on handler 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Setting burnable input for 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method adminSetBurnable executed [36mcontract=[0m0x6C682171E2e2AbECB956e6C30C66cbC1254B2406 [36mtxHash=[0m0x8cf745687065a2d56eb2d143602fc84cad2d308961e4cad2d21675f331fb1594
+Burnable set
+15-05|16:00:00.774 Called add-minter with args: --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+method MINTER_ROLE called [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+method grantRole executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0xdd20063c59d84e615ed2bc43c5dc7467febb253e7eb909887b227a7fd74bf17c
+0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B account granted minter roles
+15-05|16:00:00.952 Called approve with args: --amount="10000000000000000000" --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --decimals="18" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B" --url="https://api.baobab.klaytn.net:8651" =>
+
+Approving ERC20
+ERC20 address: 0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+Recipient address: 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+Amount: 10000000000000000000
+Decimals: 18
+Approving 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B tokens for 9999999999999999538762658202121142272
+method approve executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0x889fb64c0770f92cab7dccd37e1fb51370b11448b6fdd81c1e23f5b628f810f6
+0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B account granted allowance on 10000000000000000000 tokens of 0x3AF2400c76Cfc55eADF54aD2c9Ce6FcBE7cc913B
+15-05|16:00:00.135 Called mint with args: --amount="10000000000000000000" --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --decimals="18" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 9999999999999999538762658202121142272 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method mint executed [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545 [36mtxHash=[0m0xd870cafead033f7c0ad94c544ef1fd56b8daf0b09108ab7ba657ed608ce5ba5f
+10000000000000000000 tokens minted
+15-05|16:00:00.905 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x01ee3B49e634A7b73Bd195487954d260C599CDC7" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x01ee3B49e634A7b73Bd195487954d260C599CDC7
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+15-05|16:00:00.880 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x66152DBa034010F3bc5eA9BCaF50E738D48d9545" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x66152DBa034010F3bc5eA9BCaF50E738D48d9545
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 9999999999999999538762658202121142272
+15-05|16:00:00.514 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERS" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x29efae01aeedf76919e74bcf9bdb76c2b6578735220ffc2e5ae7ace43cbcea3a
+bridge address; 0x6413fF8386066c243Bbfe6849ADd2345532eF3c1
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0x835028d72c8AaF607140c19290A09D8d59cA4dBB [36mtxHash=[0m0x1b02cfbba1aff3dae97bc4a4ec1e2bf83379e624e435771a080595b7bf56662d
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0xb57411a98f552c64ba50d31f233176cb4dbc907842a75855b005c27cdb8602cc
+15-05|16:00:00.322 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="true" --erc20-name="BERS" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="10000000000" --generic-handler="false" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --relayer-threshold="1" --relayers="[0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]" --url="https://rpc-mumbai.maticvigil.com/" =>
+url: https://rpc-mumbai.maticvigil.com/ gas limit: 6721975 gas price: 10000000000
+SENDER Address 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+Relayers for deploy [0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095 [36mtxHash=[0m0xb1be2b3bf3e2b27da401f415cbef9e783397b36064b560cb801ff48dc7f41e1a
+bridge address; 0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0x9B9EB056d7Eeb355986E639420E93D8303B391e3 [36mtxHash=[0m0x957f3e0beaf746164bcea2a82660f8c2e6f36055ef2bb6bd34a2491aedabd9cd
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71 [36mtxHash=[0m0xe86b1b403ec89a208cc2136ccc2c77791723027cb54a1a1c3f2056b7985133fa
+15-05|16:00:00.003 Called register-resource with args: --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --gas-limit="6721975" --gas-price="30000000000" --handler="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+Bridge address: 0x6413fF8386066c243Bbfe6849ADd2345532eF3c1
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xdef7701c41b02955e39ac98d2186941fcfa96f88e61bd19e718ccd899ef58412
+Resource registered with transaction: 0xdef7701c41b02955e39ac98d2186941fcfa96f88e61bd19e718ccd899ef58412
+15-05|16:00:00.449 Called set-burn with args: --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --gas-limit="6721975" --gas-price="30000000000" --handler="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 as burnable on handler 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Setting burnable input for 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+method adminSetBurnable executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x0d0fddf6cb79094325ea41a6eac74924ecf9d7d06292ff46c40e02b85c189226
+Burnable set
+15-05|16:00:00.629 Called add-minter with args: --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+method MINTER_ROLE called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+method grantRole executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0x2c4a088ee6f7254e23a68c111ecb92ab1967fb5c833325068fbcc4d321801bc4
+0x835028d72c8AaF607140c19290A09D8d59cA4dBB account granted minter roles
+15-05|16:00:00.889 Called approve with args: --amount="10000000000000000000" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --url="https://api.baobab.klaytn.net:8651" =>
+
+Approving ERC20
+ERC20 address: 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+Recipient address: 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x835028d72c8AaF607140c19290A09D8d59cA4dBB tokens for 10000000000000000000
+method approve executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0x26c24682398f60b47ced195e854c9e4528226585812bc71e01c34c5e13b7989f
+0x835028d72c8AaF607140c19290A09D8d59cA4dBB account granted allowance on 10000000000000000000 tokens of 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+15-05|16:00:00.173 Called mint with args: --amount="10000000000000000000" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method mint executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0x6b0c9983e7be55b307d39dd63bed56534d2ae97a8304f85647302ad866c3bc14
+10000000000000000000 tokens minted
+15-05|16:00:00.605 Called register-resource with args: --bridge="0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095" --gas-limit="6721975" --gas-price="10000000000" --handler="0x9B9EB056d7Eeb355986E639420E93D8303B391e3" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --url="https://rpc-mumbai.maticvigil.com/" =>
+
+Registering resource
+Handler address: 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0x8F0960aaEa3a71383e022E3A181110ba84323d71
+Bridge address: 0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095 [36mtxHash=[0m0x9923d9d711830ed857847b081cbc1e4518f70c74115fe321fd634c4c21baa934
+Resource registered with transaction: 0x9923d9d711830ed857847b081cbc1e4518f70c74115fe321fd634c4c21baa934
+15-05|16:00:00.118 Called set-burn with args: --bridge="0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095" --gas-limit="6721975" --gas-price="10000000000" --handler="0x9B9EB056d7Eeb355986E639420E93D8303B391e3" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --token-contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --url="https://rpc-mumbai.maticvigil.com/" =>
+Setting contract 0x8F0960aaEa3a71383e022E3A181110ba84323d71 as burnable on handler 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+Setting burnable input for 0x8F0960aaEa3a71383e022E3A181110ba84323d71
+method adminSetBurnable executed [36mcontract=[0m0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095 [36mtxHash=[0m0x6ca8f2ef18dad7c91a69f351cf15c8caf7ff8ea5d142f31f13f40df21a7f4d63
+Burnable set
+15-05|16:00:00.908 Called add-minter with args: --contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x9B9EB056d7Eeb355986E639420E93D8303B391e3" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Adding new minter 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+method MINTER_ROLE called [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71
+method grantRole executed [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71 [36mtxHash=[0m0x4e9b9b193449d211be17fc6e1b47d1813c3d5f9ae4c00575ad445753b9a68ecd
+0x9B9EB056d7Eeb355986E639420E93D8303B391e3 account granted minter roles
+15-05|16:00:00.022 Called approve with args: --amount="10000000000000000000" --contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --decimals="0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x9B9EB056d7Eeb355986E639420E93D8303B391e3" --url="https://rpc-mumbai.maticvigil.com/" =>
+
+Approving ERC20
+ERC20 address: 0x8F0960aaEa3a71383e022E3A181110ba84323d71
+Recipient address: 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x9B9EB056d7Eeb355986E639420E93D8303B391e3 tokens for 10000000000000000000
+method approve executed [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71 [36mtxHash=[0m0xa71aa11aec693f9631d969780ab71316e859f86ea8a2fe2fdd691d01b7725b92
+0x9B9EB056d7Eeb355986E639420E93D8303B391e3 account granted allowance on 10000000000000000000 tokens of 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+15-05|16:00:00.084 Called mint with args: --amount="10000000000000000000" --contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --url="https://rpc-mumbai.maticvigil.com/" =>
+Minting 10000000000000000000 tokens to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method mint executed [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71 [36mtxHash=[0m0x588de937020dd7539b78124dc2dbd4628cfd77de3a47d5a5090f1802f8cdde21
+10000000000000000000 tokens minted
+15-05|16:00:00.615 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xd2896248725960a61162bfa2b28b33ae076a5f09a2b8012598635cab12fb70d9
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xd2896248725960a61162bfa2b28b33ae076a5f09a2b8012598635cab12fb70d9
+15-05|16:00:00.615 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xda5c687616a004b72b1f083e323a0b7829d93873ca065e59be33a2452c776896
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xda5c687616a004b72b1f083e323a0b7829d93873ca065e59be33a2452c776896
+15-05|17:00:00.907 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="18" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+15-05|17:00:00.004 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x841b1d806fb991c6706cbaa27b131dcc50a4c63bb1be97d164eb82709163ab00
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x841b1d806fb991c6706cbaa27b131dcc50a4c63bb1be97d164eb82709163ab00

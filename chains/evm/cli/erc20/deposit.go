@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package erc20
 
 import (
@@ -65,6 +68,7 @@ func BindDepositFlags(cmd *cobra.Command) {
 	cmd.Flags().StringVar(&ResourceID, "resource", "", "Resource ID for transfer")
 	cmd.Flags().Uint64Var(&Decimals, "decimals", 0, "ERC20 token decimals")
 	cmd.Flags().StringVar(&Priority, "priority", "none", "Transaction priority speed")
+	cmd.Flags().Uint64Var(&Value, "value", 0, "Deposit fee")
 	flags.MarkFlagsAsRequired(cmd, "recipient", "bridge", "amount", "domain", "resource", "decimals")
 }
 
@@ -88,6 +92,7 @@ func ProcessDepositFlags(cmd *cobra.Command, args []string) error {
 
 	RecipientAddress = common.HexToAddress(Recipient)
 	decimals := big.NewInt(int64(Decimals))
+	RealValue = big.NewInt(int64(Value))
 	BridgeAddr = common.HexToAddress(Bridge)
 	RealAmount, err = callsUtil.UserAmountToWei(Amount, decimals)
 	if err != nil {
@@ -100,7 +105,7 @@ func ProcessDepositFlags(cmd *cobra.Command, args []string) error {
 func DepositCmd(cmd *cobra.Command, args []string, contract *bridge.BridgeContract) error {
 	hash, err := contract.Erc20Deposit(
 		RecipientAddress, RealAmount, ResourceIdBytesArr,
-		uint8(DomainID), transactor.TransactOptions{GasLimit: gasLimit, Priority: transactor.TxPriorities[Priority]},
+		uint8(DomainID), transactor.TransactOptions{GasLimit: gasLimit, Value: RealValue, Priority: transactor.TxPriorities[Priority]},
 	)
 	if err != nil {
 		log.Error().Err(fmt.Errorf("erc20 deposit error: %v", err))

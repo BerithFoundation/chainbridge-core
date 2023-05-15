@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package consts
 
 // contracts: https://github.com/ChainSafe/sygma-solidity/tree/v2.1.4

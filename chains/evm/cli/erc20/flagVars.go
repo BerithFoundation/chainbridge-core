@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package erc20
 
 import (
@@ -9,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 )
 
-//flag vars
+// flag vars
 var (
 	Amount         string
 	Decimals       uint64
@@ -24,12 +27,14 @@ var (
 	SpenderAddress string
 	Minter         string
 	Priority       string
+	Value          uint64
 )
 
-//processed flag vars
+// processed flag vars
 var (
 	RecipientAddress   common.Address
 	RealAmount         *big.Int
+	RealValue          *big.Int
 	Erc20Addr          common.Address
 	MinterAddr         common.Address
 	BridgeAddr         common.Address

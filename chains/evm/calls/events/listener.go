@@ -1,3 +1,6 @@
+// Copyright 2021 ChainSafe Systems
+// SPDX-License-Identifier: LGPL-3.0-only
+
 package events
 
 import (
@@ -44,7 +47,7 @@ func (l *Listener) FetchDeposits(ctx context.Context, contractAddress common.Add
 		}
 
 		d.SenderAddress = common.BytesToAddress(dl.Topics[1].Bytes())
-		log.Debug().Msgf("Found deposit log in block: %d, TxHash: %s, contractAddress: %s, sender: %s", dl.BlockNumber, dl.TxHash, dl.Address, d.SenderAddress)
+		log.Info().Msgf("Found deposit log in block: %d, TxHash: %s, contractAddress: %s, sender: %s", dl.BlockNumber, dl.TxHash, dl.Address, d.SenderAddress)
 
 		deposits = append(deposits, d)
 	}
