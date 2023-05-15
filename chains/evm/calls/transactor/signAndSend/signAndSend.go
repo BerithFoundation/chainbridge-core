@@ -13,12 +13,6 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
-var DefaultTransactionOptions = transactor.TransactOptions{
-	GasLimit: 2000000,
-	GasPrice: big.NewInt(0),
-	Value:    big.NewInt(0),
-}
-
 type signAndSendTransactor struct {
 	TxFabric       calls.TxFabric
 	gasPriceClient calls.GasPricer
@@ -41,7 +35,7 @@ func (t *signAndSendTransactor) Transact(to *common.Address, data []byte, opts t
 		return &common.Hash{}, err
 	}
 
-	err = transactor.MergeTransactionOptions(&opts, &DefaultTransactionOptions)
+	err = transactor.MergeTransactionOptions(&opts, &transactor.DefaultTransactionOptions)
 	if err != nil {
 		t.client.UnlockNonce()
 		return &common.Hash{}, err
