@@ -41,3 +41,5 @@ centrifuge-chain/
 /lvldbdata
 
 example/lvldbdata
+example/cli_output_data.log
+example/chainbridge

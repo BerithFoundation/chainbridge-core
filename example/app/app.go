@@ -11,8 +11,6 @@ import (
 	"syscall"
 	"time"
 
-	secp256k1 "github.com/ethereum/go-ethereum/crypto"
-
 	"github.com/ChainSafe/chainbridge-core/chains/evm"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/contracts/bridge"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/events"
@@ -23,9 +21,9 @@ import (
 	"github.com/ChainSafe/chainbridge-core/chains/evm/listener"
 	"github.com/ChainSafe/chainbridge-core/config"
 	"github.com/ChainSafe/chainbridge-core/config/chain"
-	secp256k12 "github.com/ChainSafe/chainbridge-core/crypto/secp256k1"
 	"github.com/ChainSafe/chainbridge-core/e2e/dummy"
 	"github.com/ChainSafe/chainbridge-core/flags"
+	"github.com/ChainSafe/chainbridge-core/keystore"
 	"github.com/ChainSafe/chainbridge-core/lvldb"
 	"github.com/ChainSafe/chainbridge-core/opentelemetry"
 	"github.com/ChainSafe/chainbridge-core/relayer"
@@ -60,12 +58,22 @@ func Run() error {
 					panic(err)
 				}
 
-				privateKey, err := secp256k1.HexToECDSA(config.GeneralChainConfig.Key)
+				// privateKey, err := secp256k1.HexToECDSA(config.GeneralChainConfig.Key)
+				// if err != nil {
+				// 	panic(err)
+				// }
+				// kp := secp256k12.NewKeypair(*privateKey)
+
+				kp, err := keystore.KeypairFromAddress(
+					configuration.RelayerConfig.Address,
+					"evm",
+					viper.GetString(flags.KeystoreFlagName),
+					viper.GetString(flags.PasswordFlagName),
+					false)
+
 				if err != nil {
 					panic(err)
 				}
-
-				kp := secp256k12.NewKeypair(*privateKey)
 
 				client, err := evmclient.NewEVMClient(config.GeneralChainConfig.Endpoint, kp)
 				if err != nil {

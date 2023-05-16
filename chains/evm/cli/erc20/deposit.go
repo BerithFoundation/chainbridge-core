@@ -68,7 +68,7 @@ func BindDepositFlags(cmd *cobra.Command) {
 	cmd.Flags().StringVar(&ResourceID, "resource", "", "Resource ID for transfer")
 	cmd.Flags().Uint64Var(&Decimals, "decimals", 0, "ERC20 token decimals")
 	cmd.Flags().StringVar(&Priority, "priority", "none", "Transaction priority speed")
-	cmd.Flags().Uint64Var(&Value, "value", 0, "Deposit fee")
+	cmd.Flags().StringVar(&Value, "value", "", "Deposit fee")
 	flags.MarkFlagsAsRequired(cmd, "recipient", "bridge", "amount", "domain", "resource", "decimals")
 }
 
@@ -92,9 +92,12 @@ func ProcessDepositFlags(cmd *cobra.Command, args []string) error {
 
 	RecipientAddress = common.HexToAddress(Recipient)
 	decimals := big.NewInt(int64(Decimals))
-	RealValue = big.NewInt(int64(Value))
 	BridgeAddr = common.HexToAddress(Bridge)
 	RealAmount, err = callsUtil.UserAmountToWei(Amount, decimals)
+	if err != nil {
+		return err
+	}
+	RealValue, err = callsUtil.UserAmountToWei(Value, decimals)
 	if err != nil {
 		return err
 	}

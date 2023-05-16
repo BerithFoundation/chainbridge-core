@@ -132,7 +132,6 @@ func (v *EVMVoter) Execute(m *message.Message) error {
 		log.Error().Err(err).Msgf("Simulating proposal %+v vote failed", prop)
 		return err
 	}
-
 	hash, err := v.bridgeContract.VoteProposal(prop, transactor.TransactOptions{Priority: prop.Metadata.Priority})
 	if err != nil {
 		log.Error().Err(err).Msgf("voting for proposal %+v failed", prop)

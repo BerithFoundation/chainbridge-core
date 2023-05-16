@@ -24,7 +24,7 @@ const EveKey = "eve"
 var Keys = []string{AliceKey, BobKey, CharlieKey, DaveKey, EveKey}
 
 // The Chain type Constants
-const EthChain = "ethereum"
+const EthChain = "evm"
 const SubChain = "substrate"
 
 var TestKeyRing *TestKeyRingHolder

@@ -12,6 +12,7 @@ var (
 	// Flags for running the Chainbridge app
 	ConfigFlagName      = "config"
 	KeystoreFlagName    = "keystore"
+	PasswordFlagName    = "password"
 	BlockstoreFlagName  = "blockstore"
 	FreshStartFlagName  = "fresh"
 	LatestBlockFlagName = "latest"
@@ -32,4 +33,7 @@ func BindFlags(rootCMD *cobra.Command) {
 
 	rootCMD.PersistentFlags().String(KeystoreFlagName, "./keys", "Path to keystore directory")
 	_ = viper.BindPFlag(KeystoreFlagName, rootCMD.PersistentFlags().Lookup(KeystoreFlagName))
+
+	rootCMD.PersistentFlags().String(PasswordFlagName, "", "Password for realyer address")
+	_ = viper.BindPFlag(PasswordFlagName, rootCMD.PersistentFlags().Lookup(PasswordFlagName))
 }

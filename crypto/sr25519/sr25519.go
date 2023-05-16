@@ -8,6 +8,7 @@ import (
 
 	"github.com/centrifuge/go-substrate-rpc-client/signature"
 	"github.com/centrifuge/go-substrate-rpc-client/types"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
@@ -58,4 +59,11 @@ func (kp *Keypair) Address() string {
 // PublicKey returns the publickey encoded as a string
 func (kp *Keypair) PublicKey() string {
 	return hexutil.Encode(kp.keyringPair.PublicKey)
+}
+
+func (kp *Keypair) CommonAddress() common.Address {
+	return common.BytesToAddress(kp.keyringPair.PublicKey)
+}
+func (kp *Keypair) Sign(digestHash []byte) ([]byte, error) {
+	return nil, nil
 }

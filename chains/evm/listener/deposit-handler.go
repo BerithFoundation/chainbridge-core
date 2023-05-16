@@ -117,6 +117,7 @@ func GenericDepositHandler(sourceID, destId uint8, nonce uint64, resourceID type
 	}
 
 	// first 32 bytes are metadata length
+	//TODO :왜 metadataLen이 10000인가?
 	metadataLen := big.NewInt(0).SetBytes(calldata[:32])
 	metadata := calldata[32 : 32+metadataLen.Int64()]
 	payload := []interface{}{

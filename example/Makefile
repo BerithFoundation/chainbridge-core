@@ -12,25 +12,27 @@ SRC_PK = 56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e
 DST_ADDR = 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
 DST_PK = 23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404
 
-RESOURCE_ID = 0x0000000000000000000000000000000000000000000000000000000000000002
+RESOURCE_ID = 0x0000000000000000000000000000000000000000000000000000000000000001
 
-SRC_BRIDGE = 0x6413fF8386066c243Bbfe6849ADd2345532eF3c1
-SRC_TOKEN = 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
-SRC_HANDLER = 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+SRC_BRIDGE = 0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+SRC_TOKEN = 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+SRC_HANDLER = 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+SRC_GENERIC = 0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2
 
-DST_BRIDGE = 0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095
-DST_TOKEN = 0x8F0960aaEa3a71383e022E3A181110ba84323d71
-DST_HANDLER = 0x9B9EB056d7Eeb355986E639420E93D8303B391e3
+DST_BRIDGE = 0x4e17d27605896f145E8fD95BcEee63315148eFed
+DST_TOKEN = 0x63A604721b426794aD9F8E47736383cb8D54A1E0
+DST_HANDLER = 0xe433e545536B675E5222C471C1380e0F5E5E768e
+DST_GENERIC = 0xd46f3d8cc7e88Aa2AD6022a333d2332FacccA02b
 
 # changeable arguments
 FEE = 1000000000000000
-AMOUNT = 10000
+AMOUNT = 1000000000000000000
 APPROVE = 10000000000000000000
 
 # src 체인에 Bridge, ERC20, ERC20 Handler Contract 배포
 deploysrc:
 	./chainbridge evm-cli --url ${SRC_GATEWAY} --private-key ${SRC_PK} --gas-price 30000000000 deploy \
-	--bridge --erc20 --erc20-handler \
+	--bridge --erc20 --erc20-handler --generic-handler \
 	--relayers ${SRC_ADDR} \
 	--relayer-threshold 1 \
 	--domain 0 \
@@ -41,8 +43,8 @@ deploysrc:
 # dst 체인에 Bridge, ERC20, ERC20 Handler Contract 배포
 deploydst:
 	./chainbridge evm-cli --url ${DST_GATEWAY} --private-key ${DST_PK} --gas-price 10000000000 deploy \
-	--bridge --erc20 --erc20-handler \
-	--relayers ${DST_ADDR} \
+	--bridge --erc20 --erc20-handler  --generic-handler \
+	--relayers ${SRC_ADDR} \
 	--relayer-threshold 1 \
 	--domain 1 \
 	--fee ${FEE} \
@@ -135,7 +137,7 @@ depositsrc:
 	--amount ${AMOUNT} \
 	--domain 1 \
 	--bridge ${SRC_BRIDGE} \
-	--recipient ${DST_ADDR} \
+	--recipient ${SRC_ADDR} \
 	--resource ${RESOURCE_ID} \
 	--decimals 0 \
 	--value ${FEE}
@@ -143,9 +145,9 @@ depositsrc:
 depositdst:
 	./chainbridge evm-cli --url ${DST_GATEWAY} --private-key ${DST_PK} --gas-price 10000000000 erc20 deposit \
 	--amount ${AMOUNT} \
-	--domain 1 \
+	--domain 0 \
 	--bridge ${DST_BRIDGE} \
-	--recipient ${SRC_ADDR} \
+	--recipient ${DST_ADDR} \
 	--resource ${RESOURCE_ID} \
 	--decimals 0 \
 	--value ${FEE}

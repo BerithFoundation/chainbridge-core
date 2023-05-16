@@ -400,3 +400,339 @@ failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Rec
 ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
 method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x841b1d806fb991c6706cbaa27b131dcc50a4c63bb1be97d164eb82709163ab00
 10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x841b1d806fb991c6706cbaa27b131dcc50a4c63bb1be97d164eb82709163ab00
+16-05|10:00:00.284 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x7f61a195926bfd761e043cee0c9749159470a95bc57dce7f65b4cfd36ec751bd
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x7f61a195926bfd761e043cee0c9749159470a95bc57dce7f65b4cfd36ec751bd
+16-05|10:00:00.703 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xdcdeef495416ee803db134a4bfd7667db4317bd5ff0987febe298028dccc67c1
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xdcdeef495416ee803db134a4bfd7667db4317bd5ff0987febe298028dccc67c1
+16-05|10:00:00.129 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xcbe717abb86bb48837c2a8fbb2855feb103d1285d310d072aacdea21ba2bae3e
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xcbe717abb86bb48837c2a8fbb2855feb103d1285d310d072aacdea21ba2bae3e
+16-05|10:00:00.451 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xe246b4f9b7e0fef14b5dcb7bc202772a2d4a306f7e556a4a0b6cafad456a25b7
+16-05|11:00:00.726 Called deposit with args: --amount="10000" --bridge="0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095 [36mtxHash=[0m0xc4a0b01c9d3632772ddbe8c05760c1455f11662704a31c9e6a6d454e68f05c6c
+10000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0xc4a0b01c9d3632772ddbe8c05760c1455f11662704a31c9e6a6d454e68f05c6c
+16-05|11:00:00.021 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 0
+16-05|11:00:00.217 Called register-resource with args: --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --gas-limit="6721975" --gas-price="30000000000" --handler="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --target="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000002
+Target address: 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+Bridge address: 0x6413fF8386066c243Bbfe6849ADd2345532eF3c1
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000002
+method adminSetResource executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x19e514d8a80d097dd57b989ffbe04c323daf7024a08b118d98d10a9a25cdbb65
+Resource registered with transaction: 0x19e514d8a80d097dd57b989ffbe04c323daf7024a08b118d98d10a9a25cdbb65
+16-05|11:00:00.364 Called set-burn with args: --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --gas-limit="6721975" --gas-price="30000000000" --handler="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 as burnable on handler 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Setting burnable input for 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+method adminSetBurnable executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xf0d3c3e6013b203d142d57ac723b44adc0117f9cc92f6171065ef28423e164ce
+Burnable set
+16-05|11:00:00.506 Called add-minter with args: --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+method MINTER_ROLE called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+method grantRole executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0xeee063f12936cf18db80435215dc4603770d0511017d23c4dd2500d389775c77
+0x835028d72c8AaF607140c19290A09D8d59cA4dBB account granted minter roles
+16-05|11:00:00.704 Called approve with args: --amount="10000000000000000000" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x835028d72c8AaF607140c19290A09D8d59cA4dBB" --url="https://api.baobab.klaytn.net:8651" =>
+
+Approving ERC20
+ERC20 address: 0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+Recipient address: 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x835028d72c8AaF607140c19290A09D8d59cA4dBB tokens for 10000000000000000000
+method approve executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0x4c5ce0abe9f6ad29486f5315290b185de4bf3ca5b489e9b1dac809c4f104fa51
+0x835028d72c8AaF607140c19290A09D8d59cA4dBB account granted allowance on 10000000000000000000 tokens of 0x835028d72c8AaF607140c19290A09D8d59cA4dBB
+16-05|11:00:00.851 Called mint with args: --amount="10000000000000000000" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method mint executed [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192 [36mtxHash=[0m0x6b158d9e41c7fa475e465ea0bccda3ecf3570b5ceaf6187cc17aef80d724cb0c
+10000000000000000000 tokens minted
+16-05|11:00:00.476 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x7784ea065075528fd6d88bad4261904637ff4280ca457a822910bcca0dfbb8b2
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x7784ea065075528fd6d88bad4261904637ff4280ca457a822910bcca0dfbb8b2
+16-05|11:00:00.261 Called deploy with args: --all="false" --bridge="false" --bridge-address="" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+failed to execute root cmd [31merror=[0m[31m"required flag(s) \"bridge-address\" not set"[0m
+16-05|11:00:00.563 Called deploy with args: --all="false" --bridge="false" --bridge-address="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying generic handler..
+successful contract deployment [36mdeployedAddress=[0m0x6F7ED10ff9B21a12383b770cF22faa95A57f3B9b [36mtxHash=[0m0x3ca64ca2816df438641596df271651b14f8086e11a3cc81ab099aba84fd337e1
+16-05|11:00:00.407 Called deploy with args: --all="false" --bridge="false" --bridge-address="0xbe1B7eA3990d9d842fBE74E1b1a16B097Faa7095" --domain="0" --erc20="false" --erc20-handler="false" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --relayer-threshold="1" --relayers="[0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]" --url="https://rpc-mumbai.maticvigil.com/" =>
+url: https://rpc-mumbai.maticvigil.com/ gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+Relayers for deploy [0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426]
+all bool: false
+deploying generic handler..
+successful contract deployment [36mdeployedAddress=[0m0x1d9c886807792c3E6A3b85ef1323eBAdfF10515c [36mtxHash=[0m0x15791bec4fc441badade0a5a6a96b8df4918515684f645a8428414f0b37b1013
+16-05|11:00:00.550 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xf94e7eddf03ace76d07e7beeea160388b7f0e7d14002c9579e270b54ead8aaca
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xf94e7eddf03ace76d07e7beeea160388b7f0e7d14002c9579e270b54ead8aaca
+16-05|11:00:00.417 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 19999999999999890000
+16-05|11:00:00.886 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 9999999999999990000
+16-05|13:00:00.233 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x1906b2cef5391e45a445160714570048721bb2b620084775dbd588b89966c53e
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x1906b2cef5391e45a445160714570048721bb2b620084775dbd588b89966c53e
+16-05|13:00:00.179 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xdc54ffd6c8ad8d95b6b150c84c63686aed9ff4e82fbb11c77d256b69a3e2467e
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xdc54ffd6c8ad8d95b6b150c84c63686aed9ff4e82fbb11c77d256b69a3e2467e
+16-05|14:00:00.304 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xd7ecef9279535f07c1dc648bdb023bcbb2a621a09f1312e0bf8ea7d30ae9d78e
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xd7ecef9279535f07c1dc648bdb023bcbb2a621a09f1312e0bf8ea7d30ae9d78e
+16-05|14:00:00.733 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0x136eb6a83846c733811e6a3e0734195437c144ea87d8895e9d64a94857e5087e
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x136eb6a83846c733811e6a3e0734195437c144ea87d8895e9d64a94857e5087e
+16-05|15:00:00.411 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xc99668d5dec22171055cbdcbe31f2170e743735140bbb0d14084bd985cd24460
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xc99668d5dec22171055cbdcbe31f2170e743735140bbb0d14084bd985cd24460
+16-05|16:00:00.863 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xfe23867a1d9ac12a2b18f72368ade6d71085e7952a27c5def9d1e1961a0b411a
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xfe23867a1d9ac12a2b18f72368ade6d71085e7952a27c5def9d1e1961a0b411a
+16-05|16:00:00.478 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x8F0960aaEa3a71383e022E3A181110ba84323d71" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x8F0960aaEa3a71383e022E3A181110ba84323d71
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 9999999999999990000
+16-05|16:00:00.991 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 19999999999999830000
+16-05|16:00:00.525 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 19999999999999830000
+16-05|16:00:00.466 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xe9Ab2f2E455055E5A09aFaA18dd17cF3C27d2192
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 19999999999999830000
+16-05|16:00:00.085 Called deposit with args: --amount="10000" --bridge="0x6413fF8386066c243Bbfe6849ADd2345532eF3c1" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000002" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000002
+method deposit executed [36mcontract=[0m0x6413fF8386066c243Bbfe6849ADd2345532eF3c1 [36mtxHash=[0m0xc6c91b71dc31ad01468236b6ac1ea406b5bedd8eae8836f0ed83ae62f98c54b0
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xc6c91b71dc31ad01468236b6ac1ea406b5bedd8eae8836f0ed83ae62f98c54b0
+16-05|17:00:00.736 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://api.baobab.klaytn.net:8651" =>
+url: https://api.baobab.klaytn.net:8651 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0x45877cb6c64959ebe4c374ded5122e4698dad2e60b0042959ddbc887acf65975
+bridge address; 0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99 [36mtxHash=[0m0x8a4c22ce79d9b35f6e521c88888d7683addfb5f8d253ade5dce395107d195831
+deploying generic handler..
+successful contract deployment [36mdeployedAddress=[0m0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2 [36mtxHash=[0m0xde933db0b08b6e62363a8b5535d760e823ff085e325e1ae8af7f13c70f50a625
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa [36mtxHash=[0m0x5fcbc98bcfa5a452efaed14bc94d82a6150276f0f0d539146a7a07e48d064fe0
+16-05|17:00:00.678 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="1" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="10000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="https://rpc-mumbai.maticvigil.com/" =>
+url: https://rpc-mumbai.maticvigil.com/ gas limit: 6721975 gas price: 10000000000
+SENDER Address 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+successful contract deployment [36mdeployedAddress=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0x0df68170ebcebb366eae8e74c9d2bdd5b0b5452cbf3dd17abc0640b1ecaab649
+bridge address; 0x4e17d27605896f145E8fD95BcEee63315148eFed
+deploying ERC20 handler..
+successful contract deployment [36mdeployedAddress=[0m0xe433e545536B675E5222C471C1380e0F5E5E768e [36mtxHash=[0m0x719f63b254e48d5e965ebbddf957cb14f769245a8defc2475f81db1f50647327
+deploying generic handler..
+successful contract deployment [36mdeployedAddress=[0m0xd46f3d8cc7e88Aa2AD6022a333d2332FacccA02b [36mtxHash=[0m0x2945073ee4b9a0c98ab36fcdacb141bf21eeb6edafab8077130061294416a99d
+deploying ERC20..
+successful contract deployment [36mdeployedAddress=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0 [36mtxHash=[0m0xa16a14b7b2f0ac6f568a61e5eff55f07e6d5a11964f995587a61b5903e4aaea8
+16-05|17:00:00.474 Called register-resource with args: --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --gas-limit="6721975" --gas-price="30000000000" --handler="0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --url="https://api.baobab.klaytn.net:8651" =>
+
+Registering resource
+Handler address: 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+Bridge address: 0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+method adminSetResource executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0x640b5f47afe929fcfed537b1b2e3e2dce0e4559503a4dc7218b1f93abef3e704
+Resource registered with transaction: 0x640b5f47afe929fcfed537b1b2e3e2dce0e4559503a4dc7218b1f93abef3e704
+16-05|17:00:00.657 Called set-burn with args: --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --gas-limit="6721975" --gas-price="30000000000" --handler="0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --url="https://api.baobab.klaytn.net:8651" =>
+Setting contract 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa as burnable on handler 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+Setting burnable input for 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+method adminSetBurnable executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0xd353cd820332eaf58de039f7d4d40942692bf421911329af6e843f3abd22f65f
+Burnable set
+16-05|17:00:00.815 Called add-minter with args: --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Adding new minter 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+method MINTER_ROLE called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+method grantRole executed [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa [36mtxHash=[0m0x6bb57f24aab968558eefab4a9962491a06b3b0694f6eb2af385bd8ad7a2af417
+0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99 account granted minter roles
+16-05|17:00:00.973 Called approve with args: --amount="10000000000000000000" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99" --url="https://api.baobab.klaytn.net:8651" =>
+
+Approving ERC20
+ERC20 address: 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+Recipient address: 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99 tokens for 10000000000000000000
+method approve executed [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa [36mtxHash=[0m0xa482b91120aaf0ba12320bf1a58a4c28cd85dd689e66f9b5f1c49ba478f95634
+0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99 account granted allowance on 10000000000000000000 tokens of 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+16-05|17:00:00.204 Called mint with args: --amount="10000000000000000000" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="https://api.baobab.klaytn.net:8651" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method mint executed [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa [36mtxHash=[0m0x3ff1778caeaead68ce90a87eb526dde86301c5f7f9852ec5f308907b763153c1
+10000000000000000000 tokens minted
+16-05|17:00:00.521 Called register-resource with args: --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --gas-limit="6721975" --gas-price="10000000000" --handler="0xe433e545536B675E5222C471C1380e0F5E5E768e" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --url="https://rpc-mumbai.maticvigil.com/" =>
+
+Registering resource
+Handler address: 0xe433e545536B675E5222C471C1380e0F5E5E768e
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x63A604721b426794aD9F8E47736383cb8D54A1E0
+Bridge address: 0x4e17d27605896f145E8fD95BcEee63315148eFed
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+method adminSetResource executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0xddcfb1514e05afe8c2ca9ff9ac9e4e02c8413d79f9f03d24bbebcabff2848651
+Resource registered with transaction: 0xddcfb1514e05afe8c2ca9ff9ac9e4e02c8413d79f9f03d24bbebcabff2848651
+16-05|17:00:00.386 Called set-burn with args: --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --gas-limit="6721975" --gas-price="10000000000" --handler="0xe433e545536B675E5222C471C1380e0F5E5E768e" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --token-contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --url="https://rpc-mumbai.maticvigil.com/" =>
+Setting contract 0x63A604721b426794aD9F8E47736383cb8D54A1E0 as burnable on handler 0xe433e545536B675E5222C471C1380e0F5E5E768e
+Setting burnable input for 0x63A604721b426794aD9F8E47736383cb8D54A1E0
+method adminSetBurnable executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0xe77452a1e7dfaa21cc8bc50e2137739897cb3ea7a95113422fef195b3b1e48e9
+Burnable set
+16-05|17:00:00.014 Called add-minter with args: --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xe433e545536B675E5222C471C1380e0F5E5E768e" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Adding new minter 0xe433e545536B675E5222C471C1380e0F5E5E768e
+method MINTER_ROLE called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+method grantRole executed [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0 [36mtxHash=[0m0x462df963a61f179bd5289f08d5859ca28bb589919d455b7a782c42a837c986db
+0xe433e545536B675E5222C471C1380e0F5E5E768e account granted minter roles
+16-05|17:00:00.945 Called approve with args: --amount="10000000000000000000" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --decimals="0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0xe433e545536B675E5222C471C1380e0F5E5E768e" --url="https://rpc-mumbai.maticvigil.com/" =>
+
+Approving ERC20
+ERC20 address: 0x63A604721b426794aD9F8E47736383cb8D54A1E0
+Recipient address: 0xe433e545536B675E5222C471C1380e0F5E5E768e
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0xe433e545536B675E5222C471C1380e0F5E5E768e tokens for 10000000000000000000
+method approve executed [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0 [36mtxHash=[0m0x479b8de154f77fdb2d9ed55ffe7eec956f7c811aad35176106c9243d48564a58
+0xe433e545536B675E5222C471C1380e0F5E5E768e account granted allowance on 10000000000000000000 tokens of 0xe433e545536B675E5222C471C1380e0F5E5E768e
+16-05|17:00:00.249 Called mint with args: --amount="10000000000000000000" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --url="https://rpc-mumbai.maticvigil.com/" =>
+Minting 10000000000000000000 tokens to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method mint executed [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0 [36mtxHash=[0m0x1dbf0cf50cbb7e6873f928b1900aab9f91ed9b712bbf930eda13d58097d02b48
+10000000000000000000 tokens minted
+16-05|17:00:00.119 Called deposit with args: --amount="10000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0xd92c55b0039a327f856f82ab2ff16413895749b278766830b5ba823e42d13016
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xd92c55b0039a327f856f82ab2ff16413895749b278766830b5ba823e42d13016
+16-05|17:00:00.417 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+16-05|17:00:00.837 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 0
+16-05|17:00:00.604 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+16-05|17:00:00.516 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 10000000000000010000
+16-05|17:00:00.880 Called deposit with args: --amount="10000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0xffc9d20847e3dfc8c07ece85bded0fb41e796b02f090768e0584453b81373717
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0xffc9d20847e3dfc8c07ece85bded0fb41e796b02f090768e0584453b81373717
+16-05|17:00:00.678 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 0
+16-05|17:00:00.911 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+16-05|17:00:00.764 Called deposit with args: --amount="10000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0x2a7f7108a01cf4c364b1d5b9fcbb1b7eb220921d2853ffc019ea4939098a6824
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0x2a7f7108a01cf4c364b1d5b9fcbb1b7eb220921d2853ffc019ea4939098a6824
+16-05|17:00:00.141 Called deposit with args: --amount="10000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0x8b1485da95d6cd1ac0dbb9cceb8ee86da489316193038b1c247820a10b0b1419
+10000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x8b1485da95d6cd1ac0dbb9cceb8ee86da489316193038b1c247820a10b0b1419
+16-05|17:00:00.178 Called deposit with args: --amount="10000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0xcca0e9d3470125111fb067930c26b809da5c3f7d5fe99669b85a69d277a0a0cd
+10000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xcca0e9d3470125111fb067930c26b809da5c3f7d5fe99669b85a69d277a0a0cd
+16-05|17:00:00.922 Called deposit with args: --amount="10000000000000000000000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+16-05|17:00:00.540 Called deposit with args: --amount="10000000000000000000000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m10000000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+16-05|17:00:00.305 Called deposit with args: --amount="1000000000000000000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0xf68232d73045277301e4feb30a25a0f09dbbefd73aeb1f143da6a7730a1228f6
+1000000000000000000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xf68232d73045277301e4feb30a25a0f09dbbefd73aeb1f143da6a7730a1228f6
+16-05|17:00:00.392 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 8999999999999970000
+16-05|17:00:00.925 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 0
+16-05|17:00:00.168 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+16-05|18:00:00.095 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 0
+16-05|18:00:00.465 Called deposit with args: --amount="1000000000000000000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0xe2bd2eb7e46a246f4ea444ec00272ceea5265c88d20a5336c7e3d1003afecd40
+1000000000000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0xe2bd2eb7e46a246f4ea444ec00272ceea5265c88d20a5336c7e3d1003afecd40
+16-05|18:00:00.225 Called deposit with args: --amount="1000000000000000000" --bridge="0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://api.baobab.klaytn.net:8651" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC [36mtxHash=[0m0x23f2eeb8ff6806fb9fc4fadf8da3ff67149c9dca17f15db7e72a489b60a65abd
+1000000000000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x23f2eeb8ff6806fb9fc4fadf8da3ff67149c9dca17f15db7e72a489b60a65abd
+16-05|18:00:00.570 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0x63A604721b426794aD9F8E47736383cb8D54A1E0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --url="https://rpc-mumbai.maticvigil.com/" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0x63A604721b426794aD9F8E47736383cb8D54A1E0
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 1000000000000000000
+16-05|18:00:00.018 Called balance with args: --address="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --contract="0x0b118820e8dfA0E14E9F2093d72215bc81365DFa" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="https://api.baobab.klaytn.net:8651" =>
+Getting balance for 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426
+method balanceOf called [36mcontract=[0m0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+balance of 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 is 0
+16-05|18:00:00.384 Called deposit with args: --amount="100000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m100000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0x249638365799f0d6f2819a12bc7477e2f3e2d39ad1155cd78a9eb5ea8e902b9a
+100000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0x249638365799f0d6f2819a12bc7477e2f3e2d39ad1155cd78a9eb5ea8e902b9a
+16-05|18:00:00.891 Called deposit with args: --amount="100000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m100000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0x5acdf1ef7b197c46df232b39defc268f6c3ad24f4b08491360e1000ac9249a7a
+100000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0x5acdf1ef7b197c46df232b39defc268f6c3ad24f4b08491360e1000ac9249a7a
+16-05|18:00:00.767 Called deposit with args: --amount="1000000000000000000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0xb020f9eb961ec6ceaab7762a5ea474baf8cf7c30a041ee4da3a69b989f4d6813
+1000000000000000000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0xb020f9eb961ec6ceaab7762a5ea474baf8cf7c30a041ee4da3a69b989f4d6813
+16-05|18:00:00.725 Called deposit with args: --amount="1000000000000000000" --bridge="0x4e17d27605896f145E8fD95BcEee63315148eFed" --decimals="0" --domain="0" --gas-limit="6721975" --gas-price="10000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404" --recipient="0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="https://rpc-mumbai.maticvigil.com/" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000000000000 [36mrecipient=[0m0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+method deposit executed [36mcontract=[0m0x4e17d27605896f145E8fD95BcEee63315148eFed [36mtxHash=[0m0x26300238632b56a3cd1d0c974ead8032fc25aba3119aaf4819fb132e0f3645a9
+1000000000000000000 tokens were transferred to 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 from 0x48179c14aeDf2bfaCf7bF6328A2eDACd6d3DA426 with hash 0x26300238632b56a3cd1d0c974ead8032fc25aba3119aaf4819fb132e0f3645a9

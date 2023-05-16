@@ -27,7 +27,7 @@ var (
 	SpenderAddress string
 	Minter         string
 	Priority       string
-	Value          uint64
+	Value          string
 )
 
 // processed flag vars
