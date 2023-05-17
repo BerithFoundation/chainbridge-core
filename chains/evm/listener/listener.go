@@ -88,7 +88,6 @@ func (l *EVMListener) ListenToEvents(ctx context.Context, startBlock *big.Int, m
 				time.Sleep(l.blockRetryInterval)
 				continue
 			}
-
 			l.log.Debug().Msgf("Fetching evm events for block range %s-%s", startBlock, endBlock)
 
 			for _, handler := range l.eventHandlers {
