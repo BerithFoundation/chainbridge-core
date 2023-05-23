@@ -136,8 +136,10 @@ func (c *EVMClient) FetchEventLogs(ctx context.Context, contractAddress common.A
 }
 
 // SendRawTransaction accepts rlp-encode of signed transaction and sends it via RPC call
-func (c *EVMClient) SendRawTransaction(ctx context.Context, tx []byte) error {
-	return c.rpClient.CallContext(ctx, nil, "eth_sendRawTransaction", hexutil.Encode(tx))
+func (c *EVMClient) SendRawTransaction(ctx context.Context, tx []byte) ([]byte, error) {
+	var hex hexutil.Bytes
+	err := c.rpClient.CallContext(ctx, &hex, "eth_sendRawTransaction", hexutil.Encode(tx))
+	return hex, err
 }
 
 func (c *EVMClient) CallContract(ctx context.Context, callArgs map[string]interface{}, blockNumber *big.Int) ([]byte, error) {
@@ -181,9 +183,12 @@ func (c *EVMClient) SignAndSendTransaction(ctx context.Context, tx CommonTransac
 	if err != nil {
 		return common.Hash{}, err
 	}
-	err = c.SendRawTransaction(ctx, rawTx)
+	hex, err := c.SendRawTransaction(ctx, rawTx)
 	if err != nil {
 		return common.Hash{}, err
+	}
+	if common.BytesToHash(hex) != tx.Hash() {
+		return common.BytesToHash(hex), nil
 	}
 	return tx.Hash(), nil
 }

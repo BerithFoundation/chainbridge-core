@@ -4,7 +4,8 @@ build:
 	go build -o chainbridge
 
 # chainbridge commands (Build must precede)
-SRC_GATEWAY = https://api.baobab.klaytn.net:8651
+SRC_GATEWAY = http://localhost:8544
+# SRC_GATEWAY = https://api.baobab.klaytn.net:8651
 DST_GATEWAY = https://rpc-mumbai.maticvigil.com/
 
 SRC_ADDR = 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
@@ -14,10 +15,17 @@ DST_PK = 23e44e5019b54dd4e8c02db9cf4a6e4563c6fe32352bcede43cded05fac05404
 
 RESOURCE_ID = 0x0000000000000000000000000000000000000000000000000000000000000001
 
-SRC_BRIDGE = 0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
-SRC_TOKEN = 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
-SRC_HANDLER = 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
-SRC_GENERIC = 0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2
+# SRC_BRIDGE = 0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC
+# SRC_TOKEN = 0x0b118820e8dfA0E14E9F2093d72215bc81365DFa
+# SRC_HANDLER = 0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99
+# SRC_GENERIC = 0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2
+
+# Fro berith test
+SRC_BRIDGE = 0x71bEeC3788c4ac79c93e4912bD413d341772275c
+SRC_TOKEN = 0x2F6d67bAFf871440116298672320d2834d448c62
+SRC_HANDLER = 0x5e0c302cA42E3Dda7894A481853B4bc5dD356403
+SRC_GENERIC = 0xe8d26B66FeE6eD064Fdb6c3d8BCf4525F2fdEAeB
+###################
 
 DST_BRIDGE = 0x4e17d27605896f145E8fD95BcEee63315148eFed
 DST_TOKEN = 0x63A604721b426794aD9F8E47736383cb8D54A1E0
@@ -151,18 +159,6 @@ depositdst:
 	--resource ${RESOURCE_ID} \
 	--decimals 0 \
 	--value ${FEE}
-
-# src 체인의 전송 주소와 동일한 dst 체인의 주소로 토큰을 민팅시키기 위해 데이터를 ABI Encoding 한다. 이 데이터는 REMIX에서 Deposit 컨트랙트를 호출할 때 전달한다.
-encodeaddramtsrc:
-	./chainbridge evm-cli erc20 encodeaddramt  \
-	--recipient ${SRC_ADDR} \
-	--amount ${AMOUNT}
-
-# dst 체인의 전송 주소와 동일한 src 체인의 주소로 토큰을 민팅시키기 위해 데이터를 ABI Encoding 한다. 이 데이터는 REMIX에서 Deposit 컨트랙트를 호출할 때 전달한다.
-encodeaddramtdst:
-	 ./chainbridge evm-cli erc20 encodeaddramt  \
-	--recipient ${DST_ADDR} \
-	--amount ${AMOUNT}
 
 checkbalance:
 	./chainbridge evm-cli --url ${SRC_GATEWAY} --private-key ${SRC_PK} --gas-price 30000000000 erc20 balance \

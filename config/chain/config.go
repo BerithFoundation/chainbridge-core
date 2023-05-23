@@ -22,6 +22,7 @@ type GeneralChainConfig struct {
 	Insecure       bool
 }
 
+// TODO: Validation 강화 필요
 func (c *GeneralChainConfig) Validate() error {
 	// viper defaults to 0 for not specified ints
 	if c.Id == nil {
