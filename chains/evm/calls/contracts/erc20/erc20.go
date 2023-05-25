@@ -4,11 +4,12 @@
 package erc20
 
 import (
+	"math/big"
+	"strings"
+
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/contracts"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/transactor"
-	"math/big"
-	"strings"
 
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/consts"
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -25,8 +26,10 @@ func NewERC20Contract(
 	erc20ContractAddress common.Address,
 	transactor transactor.Transactor,
 ) *ERC20Contract {
-	a, _ := abi.JSON(strings.NewReader(consts.ERC20PresetMinterPauserABI))
-	b := common.FromHex(consts.ERC20PresetMinterPauserBin)
+	// a, _ := abi.JSON(strings.NewReader(consts.ERC20PresetMinterPauserABI))
+	// b := common.FromHex(consts.ERC20PresetMinterPauserBin)
+	a, _ := abi.JSON(strings.NewReader(consts.ERC20Basic081ABI))
+	b := common.FromHex(consts.ERC20Basic081Bin)
 	return &ERC20Contract{contracts.NewContract(erc20ContractAddress, a, b, client, transactor)}
 }
 

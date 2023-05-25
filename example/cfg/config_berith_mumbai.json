@@ -10,9 +10,9 @@
       "id": 0,
       "endpoint": "http://localhost:8544",
       "from": "0x2345BF77D1De9eacf66FE81a09a86CfAb212a542",
-      "bridge": "0x71bEeC3788c4ac79c93e4912bD413d341772275c",
-      "erc20Handler": "0x5e0c302cA42E3Dda7894A481853B4bc5dD356403",
-      "genericHandler": "0xe8d26B66FeE6eD064Fdb6c3d8BCf4525F2fdEAeB",
+      "bridge": "0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff",
+      "erc20Handler": "0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB",
+      "genericHandler": "0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73",
       "gasLimit": 9000000,
       "maxGasPrice": 30000000000,
       "blockConfirmations": 10

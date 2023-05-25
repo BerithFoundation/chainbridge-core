@@ -1106,3 +1106,564 @@ Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a54
 Suggested GP 1000000000
 method mint executed [36mcontract=[0m0x2F6d67bAFf871440116298672320d2834d448c62 [36mtxHash=[0m0x6360b9b1d739612d7c2e65d0247b52b2a6f9ad753d548b6dbe9f7fb2d22c67bb
 10000000000000000000 tokens minted
+23-05|15:00:00.723 Called deposit with args: --amount="1000000000" --bridge="0x71bEeC3788c4ac79c93e4912bD413d341772275c" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x71bEeC3788c4ac79c93e4912bD413d341772275c
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+23-05|16:00:00.614 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://testnet.berith.co:8545" =>
+url: http://testnet.berith.co:8545 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff [36mtxHash=[0m0x9c9c09f51290caf6f3f73e82193897ab606bdadcd92b8b11a55f732571a8d728
+bridge address; 0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB [36mtxHash=[0m0xf9970b6a3a3d3c307a75ff9061e6a114a611e71c94111cf2de5b3e98c2b62dbc
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73 [36mtxHash=[0m0x6f7ed2c8f31dac8cb6bff4efcc75566d43fa41ec1d20836cb9312738a6f498ad
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 [36mtxHash=[0m0xd4b3251553f89b1f88f5cdaadc17fd6bb3c11b9deb858faa60cd0f63f168f1ba
+23-05|16:00:00.041 Called register-resource with args: --bridge="0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff" --gas-limit="6721975" --gas-price="30000000000" --handler="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --url="http://testnet.berith.co:8545" =>
+
+Registering resource
+Handler address: 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Bridge address: 0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff [36mtxHash=[0m0x3b302ebcd460fe14bd9b1f2eb582e7af342856dc9d5eff92e7c80e84ac6dc8d8
+Resource registered with transaction: 0x3b302ebcd460fe14bd9b1f2eb582e7af342856dc9d5eff92e7c80e84ac6dc8d8
+23-05|16:00:00.166 Called set-burn with args: --bridge="0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff" --gas-limit="6721975" --gas-price="30000000000" --handler="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --url="http://testnet.berith.co:8545" =>
+Setting contract 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 as burnable on handler 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Setting burnable input for 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff [36mtxHash=[0m0xee8d5460c67161eca04f092a2d5571ee42076523eab0392697f5ea93fea48255
+Burnable set
+23-05|16:00:00.322 Called add-minter with args: --contract="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://testnet.berith.co:8545" =>
+Adding new minter 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+method MINTER_ROLE called [36mcontract=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 [36mtxHash=[0m0xbdc5a5881106ae7bdf9645256bc32258629d634cb19ffe68bbcad9796e3f1694
+0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB account granted minter roles
+23-05|16:00:00.468 Called approve with args: --amount="10000000000000000000" --contract="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --url="http://testnet.berith.co:8545" =>
+
+Approving ERC20
+ERC20 address: 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Recipient address: 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 [36mtxHash=[0m0x84d841e6cf568b7b1b74ef90d4cf55682e78d391e77a85428851f347c29600ef
+0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB account granted allowance on 10000000000000000000 tokens of 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+23-05|16:00:00.652 Called mint with args: --amount="10000000000000000000" --contract="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://testnet.berith.co:8545" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 [36mtxHash=[0m0x843bf75c0855a2e7bf7f20d0b2a65b69c8d87903ba03383adba47dbaffa8d3e9
+10000000000000000000 tokens minted
+23-05|16:00:00.857 Called deposit with args: --amount="1000000000" --bridge="0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://testnet.berith.co:8545" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|09:00:00.143 Called deposit with args: --amount="1000000000" --bridge="0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://testnet.berith.co:8545" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|10:00:00.591 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x78395cAB1E7f1045D7123928e157a008C232d19b [36mtxHash=[0m0x9f20dc66598a29fa0aaba99945d0d5470d9bbf230ca92bbc09e5ab20436936b4
+bridge address; 0x78395cAB1E7f1045D7123928e157a008C232d19b
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1 [36mtxHash=[0m0x1b9c1af4689b513ca4fcfc8cd099e25f8d2fab673d5caac4f3c61e11d7cc7c27
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x32cD615239b1F73BA324a7F8258D6F1BD4A569B2 [36mtxHash=[0m0x641571057cc4405c8645a55370a4e2d2388361404809a2bd26d98a327c8a9b53
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E [36mtxHash=[0m0xf4960374048864cd5e0cc8a3cc5d7079f0de0be4fef31d3a57ddbf33125f33ac
+25-05|10:00:00.437 Called register-resource with args: --bridge="0x78395cAB1E7f1045D7123928e157a008C232d19b" --gas-limit="6721975" --gas-price="30000000000" --handler="0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E
+Bridge address: 0x78395cAB1E7f1045D7123928e157a008C232d19b
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0x78395cAB1E7f1045D7123928e157a008C232d19b [36mtxHash=[0m0x30187e5a16b03071eb38460eb5f701e12cd7564cc7bc8b6f329b39053012cde1
+Resource registered with transaction: 0x30187e5a16b03071eb38460eb5f701e12cd7564cc7bc8b6f329b39053012cde1
+25-05|10:00:00.498 Called set-burn with args: --bridge="0x78395cAB1E7f1045D7123928e157a008C232d19b" --gas-limit="6721975" --gas-price="30000000000" --handler="0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E" --url="http://localhost:8544" =>
+Setting contract 0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E as burnable on handler 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1
+Setting burnable input for 0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0x78395cAB1E7f1045D7123928e157a008C232d19b [36mtxHash=[0m0x2e955f232bb76ebb76b5dcf60767b74d5f6af3907f65a4aa32ff2c5e8d39cd80
+Burnable set
+25-05|10:00:00.572 Called add-minter with args: --contract="0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1
+method MINTER_ROLE called [36mcontract=[0m0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E [36mtxHash=[0m0x6f73a3f68de77ed3bd14d5e2b7cf69735f9f67924a6e9b62e3770550f54af3fe
+0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1 account granted minter roles
+25-05|10:00:00.644 Called approve with args: --amount="10000000000000000000" --contract="0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E
+Recipient address: 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E [36mtxHash=[0m0x39d94b3537c94a101dc9befb3bde1ada59a2d55410d7e6f4e43f711f1d840f05
+0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1 account granted allowance on 10000000000000000000 tokens of 0x758599E1EEAD84759e1e4ce1B86ef128BC9eE1e1
+25-05|10:00:00.722 Called mint with args: --amount="10000000000000000000" --contract="0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0xe08E50177f1d94e0fDB947F6A92470B8b9F7411E [36mtxHash=[0m0x8764eca93d3abaa163bb40f6d42f6721a4c6c86ca639efdbac4215667f18b3dd
+10000000000000000000 tokens minted
+25-05|10:00:00.645 Called deposit with args: --amount="1000000000" --bridge="0x78395cAB1E7f1045D7123928e157a008C232d19b" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+25-05|11:00:00.142 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e [36mtxHash=[0m0x001687ab1d7d1ac4a0dad94424b0a711eaae0b3cb1f062430f5b19af77eb180d
+bridge address; 0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xE36C202a4E48a4411a055931C3BA8972695b3Fb5 [36mtxHash=[0m0x221386bf9e1bb95cb430611c9ee48f916a80efef72d12ec00cf2f1f5c6848b4b
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x6d5185084285671fB453d75Dffb351f392FF71e5 [36mtxHash=[0m0x807c8b72a1d348d697c18c79435522288188327eea2f55b9f19e8ad7c8a9ad74
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c [36mtxHash=[0m0xbfde4bb9193f76783ba8540167037b9cfdfd60f78b304b25fe995313b7212060
+25-05|11:00:00.265 Called register-resource with args: --bridge="0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e" --gas-limit="6721975" --gas-price="30000000000" --handler="0xE36C202a4E48a4411a055931C3BA8972695b3Fb5" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c
+Bridge address: 0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e [36mtxHash=[0m0x35c7c0d258fa83ba0ae3f6d1fd7ce35e71341643263cf1a9a56ee46f4bc15c4d
+Resource registered with transaction: 0x35c7c0d258fa83ba0ae3f6d1fd7ce35e71341643263cf1a9a56ee46f4bc15c4d
+25-05|11:00:00.365 Called set-burn with args: --bridge="0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e" --gas-limit="6721975" --gas-price="30000000000" --handler="0xE36C202a4E48a4411a055931C3BA8972695b3Fb5" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c" --url="http://localhost:8544" =>
+Setting contract 0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c as burnable on handler 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5
+Setting burnable input for 0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e [36mtxHash=[0m0x101d34b34588e6b7bbcf3f51ab4f70119c4d9a0e112fa41eedb20c63df341bc0
+Burnable set
+25-05|11:00:00.482 Called add-minter with args: --contract="0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xE36C202a4E48a4411a055931C3BA8972695b3Fb5" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5
+method MINTER_ROLE called [36mcontract=[0m0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c [36mtxHash=[0m0xaab8bd33680596b168b1e42f6f7c2cf02fa3a36f1053d37554ef9de86189145a
+0xE36C202a4E48a4411a055931C3BA8972695b3Fb5 account granted minter roles
+25-05|11:00:00.551 Called approve with args: --amount="10000000000000000000" --contract="0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0xE36C202a4E48a4411a055931C3BA8972695b3Fb5" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c
+Recipient address: 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c [36mtxHash=[0m0xd12b2014a555797da4b5a714834dc499dda5a44c2ba36f6cbdd3fde97221ad3a
+0xE36C202a4E48a4411a055931C3BA8972695b3Fb5 account granted allowance on 10000000000000000000 tokens of 0xE36C202a4E48a4411a055931C3BA8972695b3Fb5
+25-05|11:00:00.608 Called mint with args: --amount="10000000000000000000" --contract="0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0x604787429eABcE974BFC8A6075ad6B1a2DC54b4c [36mtxHash=[0m0x9e0ac5c675e447b18bc98abef8a4c42a1887ee84707808b0ffc0a5a847c66936
+10000000000000000000 tokens minted
+25-05|11:00:00.098 Called deposit with args: --amount="1000000000" --bridge="0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|13:00:00.973 Called deposit with args: --amount="1000000000" --bridge="0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x500FB39b3F6ae1D4B335668f2Cb74983e8409B0e
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|13:00:00.829 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+failed to execute root cmd [31merror=[0m[31m"Post \"http://localhost:8544\": dial tcp [::1]:8544: connect: connection refused"[0m
+25-05|13:00:00.838 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0xff5557132d5a4a4c8f285d4866ba4dd6c14c577685e7a091c84b59051ce58c40
+bridge address; 0x5115B65e8a127201143Ad7D25895392A3838Ee2e
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xb537BB437A72218610a658A7e6c4BA695AeCEba7 [36mtxHash=[0m0xc39c948d3921b6b29d8f6981b219521d996d36d3c5661b2166e994502af32633
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xC6e98D79775a9aB903C6745C0f1539A4bf7A19Ff [36mtxHash=[0m0x757450b93397f090b0204b29eb458d7443be2ac5363e3d8632867cb9ee4ddd1a
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB [36mtxHash=[0m0xbe7640fb2ab3768bedc9aec009fcaa957c50066e3240224d329e8a46bd5d563c
+25-05|13:00:00.068 Called register-resource with args: --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --gas-limit="6721975" --gas-price="30000000000" --handler="0xb537BB437A72218610a658A7e6c4BA695AeCEba7" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0xb537BB437A72218610a658A7e6c4BA695AeCEba7
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Bridge address: 0x5115B65e8a127201143Ad7D25895392A3838Ee2e
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x39c3b3ea886738e4b79aeb808c5ed0cc28b4392e855707f851e708d3d1ce9663
+Resource registered with transaction: 0x39c3b3ea886738e4b79aeb808c5ed0cc28b4392e855707f851e708d3d1ce9663
+25-05|13:00:00.138 Called set-burn with args: --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --gas-limit="6721975" --gas-price="30000000000" --handler="0xb537BB437A72218610a658A7e6c4BA695AeCEba7" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --url="http://localhost:8544" =>
+Setting contract 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB as burnable on handler 0xb537BB437A72218610a658A7e6c4BA695AeCEba7
+Setting burnable input for 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0xe15971b71c1243d0dc825add5d17ae4a4cb781460c5d61440b30bedd5b51d40a
+Burnable set
+25-05|13:00:00.202 Called add-minter with args: --contract="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xb537BB437A72218610a658A7e6c4BA695AeCEba7" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0xb537BB437A72218610a658A7e6c4BA695AeCEba7
+method MINTER_ROLE called [36mcontract=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB [36mtxHash=[0m0xe5aa793fcba8329a7e89b78394e98806c0940f21873a771a0d3e4dd840e2313f
+0xb537BB437A72218610a658A7e6c4BA695AeCEba7 account granted minter roles
+25-05|13:00:00.268 Called approve with args: --amount="10000000000000000000" --contract="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0xb537BB437A72218610a658A7e6c4BA695AeCEba7" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB
+Recipient address: 0xb537BB437A72218610a658A7e6c4BA695AeCEba7
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0xb537BB437A72218610a658A7e6c4BA695AeCEba7 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB [36mtxHash=[0m0xafe355deec0b9ee01a264cf8fb825d365ce8235d45ab57b17b52654e4aa6e25d
+0xb537BB437A72218610a658A7e6c4BA695AeCEba7 account granted allowance on 10000000000000000000 tokens of 0xb537BB437A72218610a658A7e6c4BA695AeCEba7
+25-05|13:00:00.331 Called mint with args: --amount="10000000000000000000" --contract="0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0x5695d0108Ad79e0081c9d84cC8f1De944f5501AB [36mtxHash=[0m0x081d24b30faa2b26cc3e278d0c56f583ab28e8cf3b4a2ae7f97e79ab3cb92698
+10000000000000000000 tokens minted
+25-05|13:00:00.184 Called deposit with args: --amount="1000000000" --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x099a5447bb9e88c497abe82b4ea721122304e25c05a1d7c46ba1c04b04ac495d
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x099a5447bb9e88c497abe82b4ea721122304e25c05a1d7c46ba1c04b04ac495d
+25-05|14:00:00.493 Called deposit with args: --amount="1000000000" --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x7662d010f1019c5149c13790a62df9be2716f446f994934a8cfb6c02b5f48723
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x7662d010f1019c5149c13790a62df9be2716f446f994934a8cfb6c02b5f48723
+25-05|14:00:00.021 Called deposit with args: --amount="1000000000" --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x1a67567ff0354ea870e458b20e8367656dec1e0dc3e59255edbd8b2efa16bb7d
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x1a67567ff0354ea870e458b20e8367656dec1e0dc3e59255edbd8b2efa16bb7d
+25-05|14:00:00.975 Called deposit with args: --amount="1000000000" --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x350beb068f06deccbd66fd3fca595d243f39af8dae7f18b1ca5fb92198026134
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x350beb068f06deccbd66fd3fca595d243f39af8dae7f18b1ca5fb92198026134
+25-05|14:00:00.228 Called deposit with args: --amount="1000000000" --bridge="0x5115B65e8a127201143Ad7D25895392A3838Ee2e" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0x5115B65e8a127201143Ad7D25895392A3838Ee2e [36mtxHash=[0m0x0775e816e4c6f2ab362f5c7dd444cc04dc16807385b0136e985835c77d2f1548
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x0775e816e4c6f2ab362f5c7dd444cc04dc16807385b0136e985835c77d2f1548
+25-05|14:00:00.387 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73 [36mtxHash=[0m0xd888d63c0530afa03f53ad45e51e89b9bd5dda933a35277e6f92903de231cd5b
+bridge address; 0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 [36mtxHash=[0m0xf6700befd3c97dba72f710d5c4261f3e0836c01795a242102c1c8e8420e3a48a
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x00cb5a997395aE653f4F1df76c92Ac81DDF3d1EE [36mtxHash=[0m0xe9d51e8f403b1e60c2f5d94812760dd31ba9e67e234c6eb879e49eb0f5147a2d
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e [36mtxHash=[0m0xb58354dd1e5497232227daa7e731c38268855ef13e83989f12758124cad0370e
+25-05|14:00:00.963 Called register-resource with args: --bridge="0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73" --gas-limit="6721975" --gas-price="30000000000" --handler="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e
+Bridge address: 0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73 [36mtxHash=[0m0x933d237030acba58cd40b8dee81437b3ee9a6869df5cb47786eeea49e4863c2f
+Resource registered with transaction: 0x933d237030acba58cd40b8dee81437b3ee9a6869df5cb47786eeea49e4863c2f
+25-05|14:00:00.031 Called set-burn with args: --bridge="0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73" --gas-limit="6721975" --gas-price="30000000000" --handler="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --url="http://localhost:8544" =>
+Setting contract 0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e as burnable on handler 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Setting burnable input for 0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73 [36mtxHash=[0m0x915833621f0045aaae2ffb32ab7783bdd1d0b1f568c244a91181a45c95ee274d
+Burnable set
+25-05|14:00:00.090 Called add-minter with args: --contract="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+method MINTER_ROLE called [36mcontract=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e [36mtxHash=[0m0x05a715a7b18f9911a581334dafe9c1548a289dd212b45d5992314fe7db765f00
+0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 account granted minter roles
+25-05|14:00:00.152 Called approve with args: --amount="10000000000000000000" --contract="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2EF73e471512c9c2c21575CfcD585F10F2455FC2" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e
+Recipient address: 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e [36mtxHash=[0m0x9b0fb201b9dc741e01207894889ca1e7610519ce6c9fdccfdab67cf7356ec66e
+0x2EF73e471512c9c2c21575CfcD585F10F2455FC2 account granted allowance on 10000000000000000000 tokens of 0x2EF73e471512c9c2c21575CfcD585F10F2455FC2
+25-05|14:00:00.209 Called mint with args: --amount="10000000000000000000" --contract="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e [36mtxHash=[0m0x7bbd0a88d4d6f1baed522ac61d237ec63e7d72e78a1e2a65ac9fa6bf31d37177
+10000000000000000000 tokens minted
+25-05|14:00:00.115 Called deposit with args: --amount="1000000000" --bridge="0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method deposit executed [36mcontract=[0m0xb2138Ed5324D4594f53F2C20Bba8e12e670e5c73 [36mtxHash=[0m0x1775cabf91b0789af64a8d509c7ea8c3206ce5d109297e51d30fb6ac232dcad7
+1000000000 tokens were transferred to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 from 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 with hash 0x1775cabf91b0789af64a8d509c7ea8c3206ce5d109297e51d30fb6ac232dcad7
+25-05|15:00:00.053 Called mint with args: --amount="10000000000000000000" --contract="0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+error on executing mint [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x21EA7ee02C2aDA429828FF210ce9f17E4f8AfC2e
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|15:00:00.779 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27 [36mtxHash=[0m0x6451457974f999342eebd88c4ebd78ab10cde1dd34c50cd10006f7a39f50be3b
+bridge address; 0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6 [36mtxHash=[0m0x7204f66c6e511763a28b0aea0c64b7c76ebf2fb18b773f59329ef90d2d7323d4
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x7467991C57062AB141BE9fEda0F1399FaDB9A9f7 [36mtxHash=[0m0xaf7c2a06f1a767f18eccdcff12da76134ed12484fabed37e9af4978de87a5f45
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF [36mtxHash=[0m0x3fe8597d817bc9d20ec484237793402292d06eb4172c28d17ae49f65554be11d
+25-05|15:00:00.152 Called register-resource with args: --bridge="0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27" --gas-limit="6721975" --gas-price="30000000000" --handler="0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0xDAf70edff56DecA5750cf974109EDc111349FFFF
+Bridge address: 0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27 [36mtxHash=[0m0xe6089e8efe3b5a2c3def18be4779926e3442779dff393dc5226cf25599744648
+Resource registered with transaction: 0xe6089e8efe3b5a2c3def18be4779926e3442779dff393dc5226cf25599744648
+25-05|15:00:00.207 Called set-burn with args: --bridge="0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27" --gas-limit="6721975" --gas-price="30000000000" --handler="0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --url="http://localhost:8544" =>
+Setting contract 0xDAf70edff56DecA5750cf974109EDc111349FFFF as burnable on handler 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6
+Setting burnable input for 0xDAf70edff56DecA5750cf974109EDc111349FFFF
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27 [36mtxHash=[0m0x95483d2153478382ad3bde65e0ee396950d01c33b262a8f067339176e09926c4
+Burnable set
+25-05|15:00:00.268 Called add-minter with args: --contract="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6
+method MINTER_ROLE called [36mcontract=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF [36mtxHash=[0m0xf8e3609555fb9f69bba9ab983df0518483b0648bc7e63fc86f94a0037c846738
+0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6 account granted minter roles
+25-05|15:00:00.336 Called approve with args: --amount="10000000000000000000" --contract="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0xDAf70edff56DecA5750cf974109EDc111349FFFF
+Recipient address: 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF [36mtxHash=[0m0x92a7f402c1b7d75112e1f421be5d8d29fdad5f180591f03c514c5261da4a0c33
+0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6 account granted allowance on 10000000000000000000 tokens of 0xA2D06DAf4CC90260071eBF2387E0857d7DbC18c6
+25-05|15:00:00.391 Called mint with args: --amount="10000000000000000000" --contract="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF [36mtxHash=[0m0x68a037421a1094491d4489aa7f14e74eb58c499d84aa1dfcbff51f708d5bb4e0
+10000000000000000000 tokens minted
+25-05|15:00:00.444 Called deposit with args: --amount="1000000000" --bridge="0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0x94f5FFB56b95578529F7a47Fec275Ce85eB73F27
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|15:00:00.425 Called mint with args: --amount="10000000000000000000" --contract="0xDAf70edff56DecA5750cf974109EDc111349FFFF" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0xDAf70edff56DecA5750cf974109EDc111349FFFF [36mtxHash=[0m0x583b5d9729a024dd51cd34647c78e1d413017c2fe85cfe87ef30e66dab9aef3e
+10000000000000000000 tokens minted
+25-05|16:00:00.939 Called deploy with args: --all="false" --bridge="true" --bridge-address="" --domain="0" --erc20="true" --erc20-handler="true" --erc20-name="BERSSWAP" --erc20-symbol="BSP" --erc721="false" --erc721-base-uri="" --erc721-handler="false" --erc721-name="" --erc721-symbol="" --fee="1000000000000000" --gas-limit="6721975" --gas-price="30000000000" --generic-handler="true" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --relayer-threshold="1" --relayers="[0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]" --url="http://localhost:8544" =>
+url: http://localhost:8544 gas limit: 6721975 gas price: 30000000000
+SENDER Address 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Relayers for deploy [0x2345BF77D1De9eacf66FE81a09a86CfAb212a542]
+all bool: false
+deploying bridge..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0x210625701a5e2d4456ca54a00eb10f2d3b85a8e8754114ad1ff5665b7306e36a
+bridge address; 0xe11EDc77830feB89d9153A55c08c6De717C856A4
+deploying ERC20 handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x4979d8300cE0EE078552Bc25c022C5603E155247 [36mtxHash=[0m0xa295cd6414fb392f40b6ed3b6836f8ef79d40a48ac97b9bd59551e973455b300
+deploying generic handler..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0x86607bfd742c58A12ea658F9a8775ffd25195E66 [36mtxHash=[0m0xd1cacafe86132145ff92e4daf8ceca99e970278b3a6e6ddb9b6189c8e775e845
+deploying ERC20..
+Suggested GP 1000000000
+successful contract deployment [36mdeployedAddress=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0x0e24cb3f1133de7779b926f8e7ad7cdccb09f8f798f6837bc912719918182b76
+25-05|16:00:00.279 Called register-resource with args: --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --gas-limit="6721975" --gas-price="30000000000" --handler="0x4979d8300cE0EE078552Bc25c022C5603E155247" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Bridge address: 0xe11EDc77830feB89d9153A55c08c6De717C856A4
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0x57587da910748e5879e270ff1495097a390b0b2cdec6262a20e103207af268f1
+Resource registered with transaction: 0x57587da910748e5879e270ff1495097a390b0b2cdec6262a20e103207af268f1
+25-05|16:00:00.343 Called set-burn with args: --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --gas-limit="6721975" --gas-price="30000000000" --handler="0x4979d8300cE0EE078552Bc25c022C5603E155247" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --url="http://localhost:8544" =>
+Setting contract 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 as burnable on handler 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Setting burnable input for 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0xdc99237254b634e8236a05cab1a0abfb0c73e281ab108b01a6adb4bbe1fc535b
+Burnable set
+25-05|16:00:00.394 Called add-minter with args: --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x4979d8300cE0EE078552Bc25c022C5603E155247" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0x4979d8300cE0EE078552Bc25c022C5603E155247
+method MINTER_ROLE called [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0xb925ad656ea2198e41238937ed44753895ae4193d7be8d3feab30a357f33c951
+0x4979d8300cE0EE078552Bc25c022C5603E155247 account granted minter roles
+25-05|16:00:00.456 Called approve with args: --amount="10000000000000000000" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x4979d8300cE0EE078552Bc25c022C5603E155247" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Recipient address: 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x4979d8300cE0EE078552Bc25c022C5603E155247 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0xf3bd4fade38b82fc8c15adf050ebbf7e691b5ad9eac2e126837cadec54e311e9
+0x4979d8300cE0EE078552Bc25c022C5603E155247 account granted allowance on 10000000000000000000 tokens of 0x4979d8300cE0EE078552Bc25c022C5603E155247
+25-05|16:00:00.510 Called mint with args: --amount="10000000000000000000" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0x2ea4dd24ea3971d475d4310ce6bdcbd83794ce3eacedca891f9157773ab5f1fe
+10000000000000000000 tokens minted
+25-05|16:00:00.347 Called deposit with args: --amount="1000000000" --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|16:00:00.970 Called register-resource with args: --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --gas-limit="6721975" --gas-price="30000000000" --handler="0x4979d8300cE0EE078552Bc25c022C5603E155247" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Bridge address: 0xe11EDc77830feB89d9153A55c08c6De717C856A4
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0xe745023406b52b8beffe841e50b1d01b1a3b96b39cdc579d3a0a4bdba6b86435
+Resource registered with transaction: 0xe745023406b52b8beffe841e50b1d01b1a3b96b39cdc579d3a0a4bdba6b86435
+25-05|16:00:00.941 Called deposit with args: --amount="1000000000" --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|16:00:00.621 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 10000000000000000000
+25-05|16:00:00.539 Called set-burn with args: --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --gas-limit="6721975" --gas-price="30000000000" --handler="0x4979d8300cE0EE078552Bc25c022C5603E155247" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --token-contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --url="http://localhost:8544" =>
+Setting contract 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 as burnable on handler 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Setting burnable input for 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Suggested GP 1000000000
+method adminSetBurnable executed [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0xb948cfb26921eee77ce54169bb3c308fd67b07e9b9368680b889e0e19ca7682b
+Burnable set
+25-05|16:00:00.437 Called add-minter with args: --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --minter="0x4979d8300cE0EE078552Bc25c022C5603E155247" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Adding new minter 0x4979d8300cE0EE078552Bc25c022C5603E155247
+method MINTER_ROLE called [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Suggested GP 1000000000
+method grantRole executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0x6586ecf283a947191f44d4aad9e78bc0f3db60536a7a05f779153f38f1bbe3ec
+0x4979d8300cE0EE078552Bc25c022C5603E155247 account granted minter roles
+25-05|16:00:00.790 Called approve with args: --amount="10000000000000000000" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x4979d8300cE0EE078552Bc25c022C5603E155247" --url="http://localhost:8544" =>
+
+Approving ERC20
+ERC20 address: 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Recipient address: 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Amount: 10000000000000000000
+Decimals: 0
+Approving 0x4979d8300cE0EE078552Bc25c022C5603E155247 tokens for 10000000000000000000
+Suggested GP 1000000000
+method approve executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0x0284bef5bb9f5a4d87de3df01ceb0a8b9322a295d63a7751455f0db4453059fc
+0x4979d8300cE0EE078552Bc25c022C5603E155247 account granted allowance on 10000000000000000000 tokens of 0x4979d8300cE0EE078552Bc25c022C5603E155247
+25-05|16:00:00.153 Called mint with args: --amount="10000000000000000000" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --decimals="0" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --url="http://localhost:8544" =>
+Minting 10000000000000000000 tokens to 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+Suggested GP 1000000000
+method mint executed [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708 [36mtxHash=[0m0x4d596b63078c195069e82b5adc0d0ee45512a89faf87b4dd511e07e8db49e5d3
+10000000000000000000 tokens minted
+25-05|16:00:00.862 Called balance with args: --address="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --contract="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --url="http://localhost:8544" =>
+Getting balance for 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542
+method balanceOf called [36mcontract=[0m0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+balance of 0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 is 20000000000000000000
+25-05|16:00:00.295 Called deposit with args: --amount="1000000000" --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --decimals="0" --domain="1" --gas-limit="6721975" --gas-price="30000000000" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --priority="none" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --recipient="0x2345BF77D1De9eacf66FE81a09a86CfAb212a542" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --url="http://localhost:8544" --value="1000000000000000" =>
+ERC20 deposit [36mamount=[0m1000000000 [36mrecipient=[0m0x2345BF77D1De9eacf66FE81a09a86CfAb212a542 [36mresourceID=[0m0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+error on executing deposit [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4
+failed to execute root cmd [31merror=[0m[31m"transaction failed on chain. Receipt status 0"[0m
+25-05|16:00:00.701 Called register-resource with args: --bridge="0xe11EDc77830feB89d9153A55c08c6De717C856A4" --gas-limit="6721975" --gas-price="30000000000" --handler="0x4979d8300cE0EE078552Bc25c022C5603E155247" --help="false" --json-wallet="" --json-wallet-password="" --network="0" --prepare="false" --private-key="56a7a32def4a15c0187e8a076baf4c76db60bbf9ad59b8396d0b2174f9d5533e" --resource="0x0000000000000000000000000000000000000000000000000000000000000001" --target="0xF002A18f1869538c032A89ECBe27CAcdDBb3A708" --url="http://localhost:8544" =>
+
+Registering resource
+Handler address: 0x4979d8300cE0EE078552Bc25c022C5603E155247
+Resource ID: 0x0000000000000000000000000000000000000000000000000000000000000001
+Target address: 0xF002A18f1869538c032A89ECBe27CAcdDBb3A708
+Bridge address: 0xe11EDc77830feB89d9153A55c08c6De717C856A4
+
+Setting resource 0x0000000000000000000000000000000000000000000000000000000000000001
+Suggested GP 1000000000
+method adminSetResource executed [36mcontract=[0m0xe11EDc77830feB89d9153A55c08c6De717C856A4 [36mtxHash=[0m0x52e2e73fb1883a131484f0ebdf1c4f201a48954efc6f18d22b6eb0c5e52e3c7e
+Resource registered with transaction: 0x52e2e73fb1883a131484f0ebdf1c4f201a48954efc6f18d22b6eb0c5e52e3c7e
