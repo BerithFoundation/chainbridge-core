@@ -1,0 +1,35 @@
+{
+  "relayer": {
+    "logLevel": "info",
+    "address": "0x2345BF77D1De9eacf66FE81a09a86CfAb212a542"
+  },
+  "chains": [
+    {
+      "name": "klaytn",
+      "type": "evm",
+      "id": 0,
+      "endpoint": "wss://public-node-api.klaytnapi.com/v1/baobab/ws",
+      "from": "0x2345BF77D1De9eacf66FE81a09a86CfAb212a542",
+      "bridge": "0x0A03be286E8947acb0d29Ee06BC1003cf8F7f3fC",
+      "erc20Handler": "0x04D3B69FEcdcCAb9A2F1C930d05134d1b3a27d99",
+      "genericHandler": "0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2",
+      "gasLimit": 9000000,
+      "maxGasPrice": 30000000000,
+      "blockConfirmations": 10
+    },
+    {
+      "name": "bera",
+      "type": "evm",
+      "id": 1,
+      "endpoint": "ws://192.168.113.1:32001",
+      "from": "0xF17aeD3A3e090c096beded279B39b051223A4838",
+      "bridge": "0x02f325776004560fe1e1ddD1965a871e0dD45a87",
+      "erc20Handler": "0xCE72d7266bA59637d53bA49fE1F7b4f9d1093F07",
+      "genericHandler": "0xd9590eea4272387CfeeE9A605B33C8e8ed2be6d4",
+      "gasLimit": 0,
+      "maxGasPrice": 0,
+      "blockConfirmations": 1,
+      "blockInterval": 1
+    }
+  ]
+}
