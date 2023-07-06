@@ -1,6 +1,6 @@
 {
   "relayer": {
-    "logLevel": "info",
+    "logLevel": "debug",
     "address": "0x2345BF77D1De9eacf66FE81a09a86CfAb212a542"
   },
   "chains": [
@@ -15,19 +15,20 @@
       "genericHandler": "0xf25f351c5efb349897dB8A2D8B448684B1d3F9f2",
       "gasLimit": 9000000,
       "maxGasPrice": 30000000000,
-      "blockConfirmations": 10
+      "blockConfirmations": 10,
+      "blockInterval": 10
     },
     {
       "name": "bera",
       "type": "evm",
       "id": 1,
-      "endpoint": "ws://192.168.113.1:32001",
+      "endpoint": "ws://121.141.157.230:32001",
       "from": "0xF17aeD3A3e090c096beded279B39b051223A4838",
-      "bridge": "0x02f325776004560fe1e1ddD1965a871e0dD45a87",
-      "erc20Handler": "0xCE72d7266bA59637d53bA49fE1F7b4f9d1093F07",
-      "genericHandler": "0xd9590eea4272387CfeeE9A605B33C8e8ed2be6d4",
-      "gasLimit": 0,
-      "maxGasPrice": 0,
+      "bridge": "0x68A52023125dD794bfeF599Ae59dd3f70669eAbE",
+      "erc20Handler": "0x5eFe400F318e96D5a5bC8B2546DC5530eAFf6f43",
+      "genericHandler": "0xDFBD799741d98043C8623Fdb643b6b18d429Ae75",
+      "gasLimit": 700000000,
+      "maxGasPrice": 10000000000,
       "blockConfirmations": 1,
       "blockInterval": 1
     }

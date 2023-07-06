@@ -76,15 +76,13 @@ func (l *EVMListener) ListenToEvents(ctx context.Context, startBlock *big.Int, m
 				time.Sleep(l.blockRetryInterval)
 				continue
 			}
-			// [Berith]
-			// Set the startblock to latestblock when the 'startblock' configuration is set to 0
-			if startBlock == nil || startBlock.Cmp(big.NewInt(0)) == 0 {
+			if startBlock == nil {
 				startBlock = big.NewInt(head.Int64())
 			}
-			endBlock.Add(startBlock, l.blockInterval)
+			endBlock.Add(startBlock, l.blockInterval) // block interval은 한 번에 얼마나 많은 블록을 fetch 할 것인지 정함
 
 			// Sleep if the difference is less than needed block confirmations; (latest - current) < BlockDelay
-			if new(big.Int).Sub(head, endBlock).Cmp(l.blockConfirmations) == -1 {
+			if new(big.Int).Sub(head, endBlock).Cmp(l.blockConfirmations) == -1 { // block confirmation은 블록 재탐색 대기 시간을 정한다.
 				time.Sleep(l.blockRetryInterval)
 				continue
 			}
